@@ -1,0 +1,53 @@
+{
+ "_type": "song",
+ "annotation_count": 9,
+ "api_path": "/songs/118945",
+ "artist_names": "Prince and the Revolution",
+ "full_title": "Purple Rain by\u00a0Prince\u00a0and the Revolution",
+ "header_image_thumbnail_url": "https://images.genius.com/a18fa17c2c4d2fdfd26a3d9817bdeee0.300x300x1.jpg",
+ "header_image_url": "https://images.genius.com/a18fa17c2c4d2fdfd26a3d9817bdeee0.1000x1000x1.jpg",
+ "id": 118945,
+ "instrumental": false,
+ "language": "en",
+ "lyrics_owner_id": 116340,
+ "lyrics_state": "complete",
+ "lyrics_updated_at": 1664853216,
+ "path": "/Prince-and-the-revolution-purple-rain-lyrics",
+ "pyongs_count": 68,
+ "relationships_index_url": "https://genius.com/Prince-and-the-revolution-purple-rain-sample",
+ "release_date_components": {
+  "year": 1984,
+  "month": 6,
+  "day": 25
+ },
+ "release_date_for_display": "June 25, 1984",
+ "release_date_with_abbreviated_month_for_display": "Jun. 25, 1984",
+ "song_art_image_thumbnail_url": "https://images.genius.com/86370c0df6a7d14badcd81c13842673e.300x300x1.jpg",
+ "song_art_image_url": "https://images.genius.com/86370c0df6a7d14badcd81c13842673e.1000x1000x1.jpg",
+ "stats": {
+  "unreviewed_annotations": 2,
+  "concurrents": 2,
+  "hot": false,
+  "pageviews": 967865
+ },
+ "title": "Purple Rain",
+ "title_with_featured": "Purple Rain",
+ "updated_by_human_at": 1673639434,
+ "url": "https://genius.com/Prince-and-the-revolution-purple-rain-lyrics",
+ "featured_artists": [],
+ "primary_artist": {
+  "_type": "artist",
+  "api_path": "/artists/43316",
+  "header_image_url": "https://images.genius.com/cb25daa2fcdb2a98b3dca6fb39f535a9.1000x523x1.jpg",
+  "id": 43316,
+  "image_url": "https://images.genius.com/d47be45ca02352f2603dfc138b15af2a.973x973x1.jpg",
+  "index_character": "p",
+  "is_meme_verified": false,
+  "is_verified": false,
+  "name": "Prince and the Revolution",
+  "slug": "Prince-and-the-revolution",
+  "url": "https://genius.com/artists/Prince-and-the-revolution"
+ },
+ "artist": "Prince and the Revolution",
+ "lyrics": "Purple Rain Lyrics[Verse 1]\nI never meant to cause you any sorrow\nI never meant to cause you any pain\nI only wanted one time to see you laughing\n\n[Pre-Chorus]\nI only wanted to see you\nLaughing in the purple rain\n\n[Chorus]\nPurple rain, purple rain\nPurple rain, purple rain\nPurple rain, purple rain\nI only want to see you\nBathing in the purple rain\n[Verse 2]\nI never wanted to be your weekend lover\nI only wanted to be some kind of friend, hey\nBaby, I could never steal you from another\n\n[Pre-Chorus]\nIt's such a shame our friendship had to end\n\n[Chorus]\nPurple rain, purple rain\nPurple rain, purple rain\nPurple rain, purple rain\nI only want to see you\nUnderneath the purple rain\nYou might also like[Verse 3]\nHoney, I know, I know\nI know times are changing\nIt's time we all reach out\nFor something new, that means you, too\nYou say you want a leader\nBut you can't seem to make up your mind\n\n[Pre-Chorus]\nI think you better close it\nAnd let me guide you to the purple rain\n\n[Chorus]\nPurple rain, purple rain\nPurple rain, purple rain, wooo!\nIf you know what I'm singing about up here\nCome on, raise your hand\nPurple rain, purple rain\nI only want to see you\nOnly want to see you in the purple rain\n\n[Instrumental outro 3:46-8:40]\n[Guitar Solo]68Embed"
+}
