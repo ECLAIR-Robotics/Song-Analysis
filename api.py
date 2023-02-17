@@ -4,13 +4,14 @@ import re
 
 genius = Genius("ekvvo28ZF9zgy2MNOGQOhdQJQ7-BKWYO_oKSu39YFLx6IMQamzoReRZwzMV0OK-u")
 
-song = genius.search_song("Billie Jean", "Michael Jackson")
+song = genius.search_song("Purple Rain", "Prince")
 
 s =song.lyrics 
-s = re.sub(r'.{8}$', '', s)
 parts = s.split('\n')
 s = '\n'.join(parts[1:])
-s= re.sub(r'\[[^()]*\]', '', s)
+s= re.sub(r'\[[^]]*\]', '', s)
+s = re.sub(r'.{8}$', '', s)
+
 #print(s)
 
 song.save_lyrics()
