@@ -1,8 +1,9 @@
 from lyricsgenius import Genius
 import json
 import re
+import config
 
-genius = Genius("ekvvo28ZF9zgy2MNOGQOhdQJQ7-BKWYO_oKSu39YFLx6IMQamzoReRZwzMV0OK-u")
+genius = Genius(config.api_key)
 
 song = genius.search_song("Purple Rain", "Prince")
 
