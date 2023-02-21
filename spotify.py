@@ -1,16 +1,18 @@
 from tokenize import String
 import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
+import config
 import json
 
-client_id = 'dac0e94e73384e26bd8cb69eee39fe67'
-client_secret = '3b8b407e3dc340dfa7491520722f8da7'
+client_id = config.spotify_CLIENT_ID
+client_secret = config.spotify_CLIENT_SECRET
 client_credentials_manager = SpotifyClientCredentials(client_id=client_id, client_secret=client_secret)
 sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager) #spotify object to access API
 
 
 
 track = 'AOK'
+#for()
 track_info_sp = sp.search(q=' track:' + track, limit=25)
 def main():
     track_uri = track_info_sp['tracks']['items'][0]['id']
