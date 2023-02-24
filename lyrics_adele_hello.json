@@ -1,0 +1,52 @@
+{
+ "_type": "song",
+ "annotation_count": 15,
+ "api_path": "/songs/2332455",
+ "artist_names": "Adele",
+ "full_title": "Hello by\u00a0Adele",
+ "header_image_thumbnail_url": "https://images.genius.com/6132f071bdd3c86a220e59c6aab609fa.300x300x1.png",
+ "header_image_url": "https://images.genius.com/6132f071bdd3c86a220e59c6aab609fa.1000x1000x1.png",
+ "id": 2332455,
+ "instrumental": false,
+ "language": "en",
+ "lyrics_owner_id": 672397,
+ "lyrics_state": "complete",
+ "lyrics_updated_at": 1660669387,
+ "path": "/Adele-hello-lyrics",
+ "pyongs_count": 260,
+ "relationships_index_url": "https://genius.com/Adele-hello-sample",
+ "release_date_components": {
+  "year": 2015,
+  "month": 10,
+  "day": 23
+ },
+ "release_date_for_display": "October 23, 2015",
+ "release_date_with_abbreviated_month_for_display": "Oct. 23, 2015",
+ "song_art_image_thumbnail_url": "https://images.genius.com/ed3e7f3e9756fde8d770e78828df544d.300x300x1.png",
+ "song_art_image_url": "https://images.genius.com/ed3e7f3e9756fde8d770e78828df544d.1000x1000x1.png",
+ "stats": {
+  "unreviewed_annotations": 0,
+  "hot": false,
+  "pageviews": 5322493
+ },
+ "title": "Hello",
+ "title_with_featured": "Hello",
+ "updated_by_human_at": 1675018024,
+ "url": "https://genius.com/Adele-hello-lyrics",
+ "featured_artists": [],
+ "primary_artist": {
+  "_type": "artist",
+  "api_path": "/artists/2300",
+  "header_image_url": "https://images.genius.com/87aa5d8c32965a10e0e7ad1acb54ba40.1000x287x6.gif",
+  "id": 2300,
+  "image_url": "https://images.genius.com/8a23ab928ccfce13accfde72f1290702.1000x1000x1.jpg",
+  "index_character": "a",
+  "is_meme_verified": false,
+  "is_verified": false,
+  "name": "Adele",
+  "slug": "Adele",
+  "url": "https://genius.com/artists/Adele"
+ },
+ "artist": "Adele",
+ "lyrics": "TranslationsT\u00fcrk\u00e7ePortugu\u00easPortugu\u00easEspa\u00f1olHello Lyrics[Verse 1]\nHello, it's me\nI was wondering if after all these years you'd like to meet\nTo go over everything\nThey say that time's supposed to heal ya, but I ain't done much healing\nHello, can you hear me?\nI'm in California dreaming about who we used to be\nWhen we were younger and free\nI've forgotten how it felt before the world fell at our feet\n\n[Pre-Chorus]\nThere's such a difference between us\nAnd a million miles\n[Chorus]\nHello from the other side\nI must've called a thousand times\nTo tell you I'm sorry for everything that I've done\nBut when I call, you never seem to be home\nHello from the outside\nAt least, I can say that I've tried\nTo tell you I'm sorry for breaking your heart\nBut it don't matter, it clearly doesn't tear you apart anymore\n\n[Verse 2]\nHello, how are you?\nIt's so typical of me to talk about myself, I'm sorry\nI hope that you're well\nDid you ever make it out of that town where nothing ever happened?\n\n[Pre-Chorus]\nIt's no secret that the both of us\nAre running out of time\n[Chorus]\nSo hello from the other side (Other side)\nI must've called a thousand times (Thousand times)\nTo tell you I'm sorry for everything that I've done\nBut when I call, you never seem to be home\nHello from the outside (Outside)\nAt least, I can say that I've tried (I've tried)\nTo tell you I'm sorry for breaking your heart\nBut it don't matter, it clearly doesn't tear you apart anymore\nSee Adele LiveGet tickets as low as $999You might also like[Bridge]\n(Highs, highs, highs, highs, lows, lows, lows, lows)\nOoh, anymore\n(Highs, highs, highs, highs, lows, lows, lows, lows)\nOoh, anymore\n(Highs, highs, highs, highs, lows, lows, lows, lows)\nOoh, anymore\n(Highs, highs, highs, highs, lows, lows, lows, lows)\nAnymore\n[Chorus]\nHello from the other side (Other side)\nI must've called a thousand times (Thousand times)\nTo tell you I'm sorry for everything that I've done\nBut when I call, you never seem to be home\nHello from the outside (Outside)\nAt least, I can say that I've tried (I've tried)\nTo tell you I'm sorry for breaking your heart\nBut it don't matter, it clearly doesn't tear you apart anymore\n[Produced by Greg Kurstin]\n[Music Video]260Embed"
+}
