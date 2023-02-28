@@ -3,7 +3,7 @@ import json
 import re
 import config
 
-def getLyrics(title, artist):
+def getLyrics(id, title, artist):
         genius = Genius(config.api_key)
 
         song = genius.search_song(title, artist)
@@ -18,10 +18,10 @@ def getLyrics(title, artist):
 
         song.save_lyrics()
 
-        with open('lyrics.txt', 'w') as m:
+        with open(f'lyrics_rawData/{id}.txt', 'w') as m:
                 
                 m.write(s)
-getLyrics("Purple Rain", "Prince")
+getLyrics(0,"Purple Rain", "Prince")
 #with open('lyrics_michaeljackson_billiejean.json', 'r') as f:
     #with open('adele_hello.txt', 'w') as m:
         
