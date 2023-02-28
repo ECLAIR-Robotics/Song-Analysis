@@ -3,11 +3,14 @@ import json
 import shutil
 import re
 import config
+import os
+
+genius = Genius(config.api_key)
 
 
 def getLyrics(id, title, artist):
-        genius = Genius(config.api_key)
-
+        if os.path.exists(f'lyrics_rawData/{id}.json') :
+            return     
         song = genius.search_song(title, artist)
         if song is None:
                 return
