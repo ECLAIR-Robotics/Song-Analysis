@@ -3,23 +3,25 @@ import json
 import re
 import config
 
-genius = Genius(config.api_key)
+def getLyrics():
+        genius = Genius(config.api_key)
 
-song = genius.search_song("Purple Rain", "Prince")
+        song = genius.search_song("Purple Rain", "Prince")
 
-s =song.lyrics 
-parts = s.split('\n')
-s = '\n'.join(parts[1:])
-s= re.sub(r'\[[^]]*\]', '', s)
-s = re.sub(r'.{8}$', '', s)
+        s =song.lyrics 
+        parts = s.split('\n')
+        s = '\n'.join(parts[1:])
+        s= re.sub(r'\[[^]]*\]', '', s)
+        s = re.sub(r'.{8}$', '', s)
 
-#print(s)
+        #print(s)
 
-song.save_lyrics()
+        song.save_lyrics()
 
-with open('lyrics.txt', 'w') as m:
-        
-        m.write(s)
+        with open('lyrics.txt', 'w') as m:
+                
+                m.write(s)
+getLyrics()
 #with open('lyrics_michaeljackson_billiejean.json', 'r') as f:
     #with open('adele_hello.txt', 'w') as m:
         
