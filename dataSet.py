@@ -6,12 +6,15 @@ import numpy as np
 import array
 
 from api import getLyrics
+from tqdm import tqdm
+
 
 df = pd.read_csv('muse_v3.csv')
+tqdm.pandas()
 df['track-artist'] = df['track'].apply(lambda i: [i])
 df['track-artist'] = df['track-artist'] + df['artist'].apply(lambda i: [i])
 
-df['track-artist'].apply(lambda i: getLyrics(i.name, i[0], i[1]))
+df['track-artist'].progress_apply(lambda i: getLyrics(i.name, i[0], i[1]))
 
 # df['track-artist'] = df.apply(lambda i: (i.col_1, i.col_2))
 # df.apply(lambda i: getLyrics(i.col_1, i.col_2))
