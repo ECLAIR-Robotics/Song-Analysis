@@ -1,12 +1,16 @@
 from lyricsgenius import Genius
 import json
+import shutil
 import re
 import config
+
 
 def getLyrics(id, title, artist):
         genius = Genius(config.api_key)
 
         song = genius.search_song(title, artist)
+        if song is None:
+                return
 
         s =song.lyrics 
         parts = s.split('\n')
@@ -14,41 +18,11 @@ def getLyrics(id, title, artist):
         s= re.sub(r'\[[^]]*\]', '', s)
         s = re.sub(r'.{8}$', '', s)
 
-        #print(s)
+        song.lyrics = s
 
-        song.save_lyrics()
-
-        with open(f'lyrics_rawData/{id}.txt', 'w') as m:
-                
-                m.write(s)
-getLyrics(0,"Purple Rain", "Prince")
-#with open('lyrics_michaeljackson_billiejean.json', 'r') as f:
-    #with open('adele_hello.txt', 'w') as m:
-        
-        
-       # data = json.load(f)
-        #m.write(data['lyrics'])
-       # s= data['lyrics']
-       # s = re.sub(r'.{8}$', '', s)
-       # parts = s.split('\n')
-       # s = '\n'.join(parts[1:])
-       # s= re.sub(r'\[[^()]*\]', '', s)
-       # m.write(s)
+        song.save_lyrics(filename='lyrics.json')
+        shutil.move('lyrics.json', f'lyrics_rawData/{id}.json')
 
 
-
-        #pattern = r'\[[^()]*\]'
-        #s = "Issachar is a rawboned[a] donkey lying down among the sheep pens."
-        #t = re.sub(pattern, '', s)
-        #print(t)
-
-
-
-#data = json.load(f)
-#print(data['lyrics'])
-
-
-#artist = genius.search_artist("Adele", max_songs=3, sort="title")
-#album = genius.search_album("Hello", "Adele")
-#print(song)
-#print(artist.songs)
+if __name__ == '__main__':
+        getLyrics(0,"Purple Rain", "Prince")
