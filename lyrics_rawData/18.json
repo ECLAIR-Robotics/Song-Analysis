@@ -1,0 +1,52 @@
+{
+ "_type": "song",
+ "annotation_count": 1,
+ "api_path": "/songs/377309",
+ "artist_names": "Deftones",
+ "full_title": "Combat by\u00a0Deftones",
+ "header_image_thumbnail_url": "https://images.genius.com/5ff78e72e7a71957739aca1743814c15.300x300x1.png",
+ "header_image_url": "https://images.genius.com/5ff78e72e7a71957739aca1743814c15.1000x1000x1.png",
+ "id": 377309,
+ "instrumental": false,
+ "language": "en",
+ "lyrics_owner_id": 349207,
+ "lyrics_state": "complete",
+ "lyrics_updated_at": 1672536127,
+ "path": "/Deftones-combat-lyrics",
+ "pyongs_count": 1,
+ "relationships_index_url": "https://genius.com/Deftones-combat-sample",
+ "release_date_components": {
+  "year": 2006,
+  "month": 10,
+  "day": 31
+ },
+ "release_date_for_display": "October 31, 2006",
+ "release_date_with_abbreviated_month_for_display": "Oct. 31, 2006",
+ "song_art_image_thumbnail_url": "https://images.genius.com/5ff78e72e7a71957739aca1743814c15.300x300x1.png",
+ "song_art_image_url": "https://images.genius.com/5ff78e72e7a71957739aca1743814c15.1000x1000x1.png",
+ "stats": {
+  "unreviewed_annotations": 0,
+  "hot": false,
+  "pageviews": 8377
+ },
+ "title": "Combat",
+ "title_with_featured": "Combat",
+ "updated_by_human_at": 1672536127,
+ "url": "https://genius.com/Deftones-combat-lyrics",
+ "featured_artists": [],
+ "primary_artist": {
+  "_type": "artist",
+  "api_path": "/artists/14195",
+  "header_image_url": "https://images.genius.com/2838e155bf703585c583a2aab8555a48.1000x750x1.jpg",
+  "id": 14195,
+  "image_url": "https://images.genius.com/593fa476c62d66a53a745e5e1ca59448.528x528x1.png",
+  "index_character": "d",
+  "is_meme_verified": false,
+  "is_verified": false,
+  "name": "Deftones",
+  "slug": "Deftones",
+  "url": "https://genius.com/artists/Deftones"
+ },
+ "artist": "Deftones",
+ "lyrics": "This time the finger's pointed right at you\nWhose side are you on, whose side are you on?\nI ask you what side since you pointed it out\nWhat side are you on what side are you on?\nYeah\n\n\nA waste of time if you don't believe\nCan't decide 'til you've hit the ground\nMake your mind 'cause you're holding me\nDown (And I wanna get)\nDown (And I wanna get)\nDown\n\nThis time the finger pointed right at you\nWhose side are you on, whose side are you on?\nI ask you what side since you pointed it out\nWhose side are you on, whose side are you on?\nOn, on, on\n\n\nA waste of time if you don't believe\nCan't decide 'til you've hit the ground\nMake your mind, though you don't believe\nCan't decide 'til you've hit the ground\nMake your mind cause you're holding me\nDown (And I wanna get)\nDown (And I wanna get)\nDown (And I wanna get)\nYou\n\n\nAnd don't think that I don't know\nBecause I do, but nice try\n'Cause that's what you're really like\nLike, like, like\nLet something out\nSay something else\nDecide whose side you're on\nYou might also like\nWhose side are you on, whose side are you on? (Go on)\nWhose side are you on, whose side are you on?\nWhose side are you on, whose side are you on?\nWhose side are you o"
+}

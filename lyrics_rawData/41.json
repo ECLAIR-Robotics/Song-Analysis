@@ -1,0 +1,53 @@
+{
+ "_type": "song",
+ "annotation_count": 12,
+ "api_path": "/songs/705662",
+ "artist_names": "La Dispute",
+ "full_title": "Damaged Goods by\u00a0La\u00a0Dispute",
+ "header_image_thumbnail_url": "https://images.genius.com/5ad49a9923dcd96c7b1db6426a088ba5.300x300x1.jpg",
+ "header_image_url": "https://images.genius.com/5ad49a9923dcd96c7b1db6426a088ba5.900x900x1.jpg",
+ "id": 705662,
+ "instrumental": false,
+ "language": "en",
+ "lyrics_owner_id": 525781,
+ "lyrics_state": "complete",
+ "lyrics_updated_at": 1578792794,
+ "path": "/La-dispute-damaged-goods-lyrics",
+ "pyongs_count": null,
+ "relationships_index_url": "https://genius.com/La-dispute-damaged-goods-sample",
+ "release_date_components": {
+  "year": 2008,
+  "month": 11,
+  "day": 11
+ },
+ "release_date_for_display": "November 11, 2008",
+ "release_date_with_abbreviated_month_for_display": "Nov. 11, 2008",
+ "song_art_image_thumbnail_url": "https://images.genius.com/5ad49a9923dcd96c7b1db6426a088ba5.300x300x1.jpg",
+ "song_art_image_url": "https://images.genius.com/5ad49a9923dcd96c7b1db6426a088ba5.900x900x1.jpg",
+ "stats": {
+  "unreviewed_annotations": 11,
+  "hot": false,
+  "pageviews": 21906
+ },
+ "title": "Damaged Goods",
+ "title_with_featured": "Damaged Goods",
+ "updated_by_human_at": 1582341929,
+ "url": "https://genius.com/La-dispute-damaged-goods-lyrics",
+ "featured_artists": [],
+ "primary_artist": {
+  "_type": "artist",
+  "api_path": "/artists/35981",
+  "header_image_url": "https://images.genius.com/3ea8e32c88bd4176647ad53024a8971a.1000x591x1.jpg",
+  "id": 35981,
+  "image_url": "https://images.genius.com/252904ea1e5c139791719a14a7138d56.1000x1000x1.png",
+  "index_character": "l",
+  "is_meme_verified": false,
+  "is_verified": true,
+  "name": "La Dispute",
+  "slug": "La-dispute",
+  "url": "https://genius.com/artists/La-dispute",
+  "iq": 120
+ },
+ "artist": "La Dispute",
+ "lyrics": "You know that hope you're holding to?\nIt looks an awful lot like fear\nNow, you're so quick to fall on failure\nAnd so quick to raise your voice, like\n'If I can't find a mistake to blame\nWe didn't have a choice.'\n\nOh, but you had an option\nI was your chance to feel complete\nBut when I leaned in close to you, you\nKissed your fear instead of me\nYou had my hand in your hand\nYou had my lip in your teeth\nYou had my heart on your sleeve\nYou had a chance to breathe\nBut, boy, you wouldn't let your fear recede so I moved on\n\nOh, and it's too late to change your mind now\nYou got scared, boy, and I got gone\nNow you failed, and there's no way to turn back time\nYou had your chance, boy, I tried.\"\n\n\"You tried?\"\nI looked her in the eye and smiled\n\"My girl, you must understand\nThat fear is not some product that I made\nIt crept unwelcome in my head the day\nThey had her torn away\nIt changed me\n\nNow at the end of every day\nI lie awake at night and wait\nTo feel the wires of my brain\nGet cut and quietly rearranged\nAnd hear my beaten heart exclaim\n'Still, I refuse to let her go.'\"\nSo we escape to our mistakes\nFor they wait patiently for us\nOh, how they always wait for me\nYou might also likeIf my fear has kept me here\nOnly my fear can set me free\nAnd I'm sorry, dear, but don't you dare speak another word\nHow could I risk holding your heart in me\nWhile still in love with her?\n\nYou were wron"
+}

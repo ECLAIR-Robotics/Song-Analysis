@@ -1,0 +1,51 @@
+{
+ "_type": "song",
+ "annotation_count": 8,
+ "api_path": "/songs/1279588",
+ "artist_names": "Kevin Rudolf",
+ "full_title": "In the City by\u00a0Kevin\u00a0Rudolf",
+ "header_image_thumbnail_url": "https://images.genius.com/7989bd69db26dc88ab678ac18e6fe3e2.300x300x1.jpg",
+ "header_image_url": "https://images.genius.com/7989bd69db26dc88ab678ac18e6fe3e2.500x500x1.jpg",
+ "id": 1279588,
+ "instrumental": false,
+ "language": "en",
+ "lyrics_owner_id": 3511877,
+ "lyrics_state": "complete",
+ "lyrics_updated_at": 1629266809,
+ "path": "/Kevin-rudolf-in-the-city-lyrics",
+ "pyongs_count": null,
+ "relationships_index_url": "https://genius.com/Kevin-rudolf-in-the-city-sample",
+ "release_date_components": {
+  "year": 2008,
+  "month": 11,
+  "day": 24
+ },
+ "release_date_for_display": "November 24, 2008",
+ "release_date_with_abbreviated_month_for_display": "Nov. 24, 2008",
+ "song_art_image_thumbnail_url": "https://images.genius.com/7989bd69db26dc88ab678ac18e6fe3e2.300x300x1.jpg",
+ "song_art_image_url": "https://images.genius.com/7989bd69db26dc88ab678ac18e6fe3e2.500x500x1.jpg",
+ "stats": {
+  "unreviewed_annotations": 8,
+  "hot": false
+ },
+ "title": "In the City",
+ "title_with_featured": "In the City",
+ "updated_by_human_at": 1629266898,
+ "url": "https://genius.com/Kevin-rudolf-in-the-city-lyrics",
+ "featured_artists": [],
+ "primary_artist": {
+  "_type": "artist",
+  "api_path": "/artists/1406",
+  "header_image_url": "https://images.genius.com/253fd52f5bf353c1c385aa5a5e92a4c6.640x250x1.jpg",
+  "id": 1406,
+  "image_url": "https://images.genius.com/253fd52f5bf353c1c385aa5a5e92a4c6.640x250x1.jpg",
+  "index_character": "k",
+  "is_meme_verified": false,
+  "is_verified": false,
+  "name": "Kevin Rudolf",
+  "slug": "Kevin-rudolf",
+  "url": "https://genius.com/artists/Kevin-rudolf"
+ },
+ "artist": "Kevin Rudolf",
+ "lyrics": "Every day I'm a star in the city\nWalk the streets like a wanted man\nAll the time got my shine lookin pretty\nMotherfuckers all know who I am\nEvery day feel the heat in the city\nLike the barrel of a smoking gun\nRead the signs see the lights their so pretty\nYou're the one now turn me on\n\n\n(Hey) give it all up for me\n(Hey) give it all up for me\n(Hey) give it all up for me\nCity boy life\n\nEvery day I'm alive in the city\nShe's a fire that lives by the sun\nOn the street lookin fine lookin pretty\nShe sucks the heat off my -- gun\nThey'll eat you alive in the city\nWhile they pull up in fancy cars\nDrinking wine, wasting time you are pretty\nPoliticians, movie stars\n\n\n(Hey) give it all up for me\n(Hey) give it all up for me\n(Hey) give it all up for me\nCity boy life\n(Hey) give it all up for me\n(Hey) give it all up for me\n(Hey) give it all up for me\nCity boy life\n\n\nEvery day I'm a star in the city\nWalk the streets like a loaded gun\nAll the time got my shine lookin pretty\nEverybody now turn me on\nYou might also like\n(Hey) give it all up for me\n(Hey) give it all up for me\n(Hey) give it all up for me\n(Hey) give it all up for me\n(Hey) give it all up for me\n(Hey) give it all up for"
+}

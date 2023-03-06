@@ -1,0 +1,52 @@
+{
+ "_type": "song",
+ "annotation_count": 6,
+ "api_path": "/songs/70874",
+ "artist_names": "Rammstein",
+ "full_title": "Wollt ihr das Bett in Flammen sehen? by\u00a0Rammstein",
+ "header_image_thumbnail_url": "https://images.genius.com/5a90ce6603a75a7d8d3bf0d085001c8f.300x300x1.jpg",
+ "header_image_url": "https://images.genius.com/5a90ce6603a75a7d8d3bf0d085001c8f.1000x1000x1.jpg",
+ "id": 70874,
+ "instrumental": false,
+ "language": "de",
+ "lyrics_owner_id": 33985,
+ "lyrics_state": "complete",
+ "lyrics_updated_at": 1669072531,
+ "path": "/Rammstein-wollt-ihr-das-bett-in-flammen-sehen-lyrics",
+ "pyongs_count": 6,
+ "relationships_index_url": "https://genius.com/Rammstein-wollt-ihr-das-bett-in-flammen-sehen-sample",
+ "release_date_components": {
+  "year": 1995,
+  "month": 9,
+  "day": 29
+ },
+ "release_date_for_display": "September 29, 1995",
+ "release_date_with_abbreviated_month_for_display": "Sep. 29, 1995",
+ "song_art_image_thumbnail_url": "https://images.genius.com/5a90ce6603a75a7d8d3bf0d085001c8f.300x300x1.jpg",
+ "song_art_image_url": "https://images.genius.com/5a90ce6603a75a7d8d3bf0d085001c8f.1000x1000x1.jpg",
+ "stats": {
+  "unreviewed_annotations": 1,
+  "hot": false,
+  "pageviews": 49872
+ },
+ "title": "Wollt ihr das Bett in Flammen sehen?",
+ "title_with_featured": "Wollt ihr das Bett in Flammen sehen?",
+ "updated_by_human_at": 1669063883,
+ "url": "https://genius.com/Rammstein-wollt-ihr-das-bett-in-flammen-sehen-lyrics",
+ "featured_artists": [],
+ "primary_artist": {
+  "_type": "artist",
+  "api_path": "/artists/16045",
+  "header_image_url": "https://images.genius.com/435f4fec0109f9045045051aee384728.1000x495x1.jpg",
+  "id": 16045,
+  "image_url": "https://images.genius.com/29cedf8dd30a7458f4fca47d1c0f0eab.1000x1000x1.jpg",
+  "index_character": "r",
+  "is_meme_verified": false,
+  "is_verified": false,
+  "name": "Rammstein",
+  "slug": "Rammstein",
+  "url": "https://genius.com/artists/Rammstein"
+ },
+ "artist": "Rammstein",
+ "lyrics": "Wollt ihr das Bett in Flammen sehen?\nWollt ihr in Haut und Haaren untergehen?\nIhr wollt doch auch den Dolch ins Laken stecken\nIhr wollt doch auch das Blut vom Degen lecken\n\n\nRammstein!\nRammstein!\n\n\nIhr seht die Kreuze auf dem Kissen\nIhr meint euch darf die Unschuld k\u00fcssen\nIhr glaubt zu t\u00f6ten w\u00e4re schwer\nDoch wo kommen all die Toten her?\n\nRammstein!\nRammstein!\nRammstein!\n\n\nSex ist eine Schlacht\nLiebe ist Krieg\nSex ist eine Schlacht, ja\nLiebe ist Krieg\n\nSex ist eine Schlacht\nLiebe ist Krieg\nSex ist eine Schlacht, ja\nLiebe ist Krieg\n\n\nWollt ihr das Bett in Flammen sehen?\nWollt ihr in Haut und Haaren untergehen?\nIhr wollt doch auch den Dolch ins Laken stecken\nIhr wollt doch auch das Blut vom Degen lecken\n\n\nRammstein!\nRammstein!\nRammstein!\nRammstein!\nSee Rammstein LiveGet tickets as low as $94You might also like\nRammstein! Rammstein! Rammstein!\nRammstein! Rammstein! Rammstein!\nRammstein! Rammstein! Rammstein!\nRammstein! Rammstein! Rammstein!\nRammstein! Rammstein! Rammstei"
+}

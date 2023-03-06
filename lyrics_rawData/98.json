@@ -1,0 +1,51 @@
+{
+ "_type": "song",
+ "annotation_count": 1,
+ "api_path": "/songs/910750",
+ "artist_names": "Soulfly",
+ "full_title": "Arise Again by\u00a0Soulfly",
+ "header_image_thumbnail_url": "https://images.genius.com/077ed4abcf22a639b75a7c2c89391140.300x296x1.jpg",
+ "header_image_url": "https://images.genius.com/077ed4abcf22a639b75a7c2c89391140.500x493x1.jpg",
+ "id": 910750,
+ "instrumental": false,
+ "language": "en",
+ "lyrics_owner_id": 17453210,
+ "lyrics_state": "complete",
+ "lyrics_updated_at": 1661204512,
+ "path": "/Soulfly-arise-again-lyrics",
+ "pyongs_count": null,
+ "relationships_index_url": "https://genius.com/Soulfly-arise-again-sample",
+ "release_date_components": {
+  "year": 2005,
+  "month": 10,
+  "day": 4
+ },
+ "release_date_for_display": "October 4, 2005",
+ "release_date_with_abbreviated_month_for_display": "Oct. 4, 2005",
+ "song_art_image_thumbnail_url": "https://images.genius.com/077ed4abcf22a639b75a7c2c89391140.300x296x1.jpg",
+ "song_art_image_url": "https://images.genius.com/077ed4abcf22a639b75a7c2c89391140.500x493x1.jpg",
+ "stats": {
+  "unreviewed_annotations": 0,
+  "hot": false
+ },
+ "title": "Arise Again",
+ "title_with_featured": "Arise Again",
+ "updated_by_human_at": 1661204531,
+ "url": "https://genius.com/Soulfly-arise-again-lyrics",
+ "featured_artists": [],
+ "primary_artist": {
+  "_type": "artist",
+  "api_path": "/artists/301317",
+  "header_image_url": "https://images.genius.com/de04293cb6eea5a0efeb6e935c2b49d2.1000x528x1.png",
+  "id": 301317,
+  "image_url": "https://images.genius.com/76f7b668858d421ba5067488231d04ab.1000x1000x1.jpg",
+  "index_character": "s",
+  "is_meme_verified": false,
+  "is_verified": false,
+  "name": "Soulfly",
+  "slug": "Soulfly",
+  "url": "https://genius.com/artists/Soulfly"
+ },
+ "artist": "Soulfly",
+ "lyrics": "Lost in a ritual rage\nI lost my normal behavior\nMuthafucka, show your face\nHide on your invisible cage\nBehind your fake name\nWhy don't you say that shit\nTo my face\n\n\nArise again, arise again\nPeople like you just fuel my hate\nArise again, arise again\nArise again, arise again\nPeople like you just fuel my hate\nArise again, arise again\n\nAt war with you again\nI don't think you understand\nMuthafucka, I don't pretend\nFuck you and your friends\nFuck you and your dreams\nCan't you see we are not the same?\n\n\nArise again, arise again\nPeople like you just fuel my hate\nArise again, arise again\nArise again, arise again\nPeople like you just fuel my hate\nArise again, arise againYou might also l"
+}

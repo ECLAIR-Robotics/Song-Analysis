@@ -1,0 +1,52 @@
+{
+ "_type": "song",
+ "annotation_count": 34,
+ "api_path": "/songs/118639",
+ "artist_names": "Manic Street Preachers",
+ "full_title": "Archives of Pain by\u00a0Manic\u00a0Street Preachers",
+ "header_image_thumbnail_url": "https://images.genius.com/f9eb668cfc15af7624d7009ea33a585a.300x300x1.jpg",
+ "header_image_url": "https://images.genius.com/f9eb668cfc15af7624d7009ea33a585a.1000x1000x1.jpg",
+ "id": 118639,
+ "instrumental": false,
+ "language": "en",
+ "lyrics_owner_id": 163077,
+ "lyrics_state": "complete",
+ "lyrics_updated_at": 1672522275,
+ "path": "/Manic-street-preachers-archives-of-pain-lyrics",
+ "pyongs_count": 3,
+ "relationships_index_url": "https://genius.com/Manic-street-preachers-archives-of-pain-sample",
+ "release_date_components": {
+  "year": 1994,
+  "month": 8,
+  "day": 29
+ },
+ "release_date_for_display": "August 29, 1994",
+ "release_date_with_abbreviated_month_for_display": "Aug. 29, 1994",
+ "song_art_image_thumbnail_url": "https://images.genius.com/f9eb668cfc15af7624d7009ea33a585a.300x300x1.jpg",
+ "song_art_image_url": "https://images.genius.com/f9eb668cfc15af7624d7009ea33a585a.1000x1000x1.jpg",
+ "stats": {
+  "unreviewed_annotations": 5,
+  "hot": false,
+  "pageviews": 31332
+ },
+ "title": "Archives of Pain",
+ "title_with_featured": "Archives of Pain",
+ "updated_by_human_at": 1672522275,
+ "url": "https://genius.com/Manic-street-preachers-archives-of-pain-lyrics",
+ "featured_artists": [],
+ "primary_artist": {
+  "_type": "artist",
+  "api_path": "/artists/38489",
+  "header_image_url": "https://images.genius.com/f85a340009bffa8e40c559337aa3e16a.1000x303x1.jpg",
+  "id": 38489,
+  "image_url": "https://images.genius.com/0363116aa544f7c993e32a4dedfed20b.494x494x1.jpg",
+  "index_character": "m",
+  "is_meme_verified": false,
+  "is_verified": false,
+  "name": "Manic Street Preachers",
+  "slug": "Manic-street-preachers",
+  "url": "https://genius.com/artists/Manic-street-preachers"
+ },
+ "artist": "Manic Street Preachers",
+ "lyrics": "I wonder who you think you are\nYou damn well think you're God or something?\nGod give life, God taketh it away - not you\nI think you are the Devil itself\n\n\nIf hospitals cure\nThen prisons must bring their pain\nDon't be ashamed to slaughter\nThe centre of humanity is cruelty\nThere is never redemption\nAny fool can regret yesterday\nNail it to the House of Lords\nYou will be buried in the same box as a killer\nAs a killer\nAs a killer\n\nA drained white body hangs from the gallows\nIs more righteous than Hindley's crotchet lectures\nPain, not penance - forget martyrs, remember victims\nThe weak die young and right now we crouch to make them strong\n\n\nKill Yeltsin, who's saying?\nZhirinovsky, Le Pen\nHindley and Brady, Ireland, Allitt, Sutcliffe\nDahmer, Nilsen, Yoshinori Ueda\nBlanche and Pickles, Amin and Milosevic\nGive them respect they deserve\nI give them the respect they deserve\nI give them the respect they deserve\nI give them the respect they deserve\n\nExecution needed\nA bloody vessel for your peace\nIf man makes death, then death makes man\nTear the torso with horses and chains\nKillers view themselves like they view the world\nThey pick at the holes\nNot punish less, rise the pain\nSterilise rapists\nAll I preach is extinction\nYou might also like\nKill Yeltsin, who's saying?\nZhirinovsky, Le Pen\nHindley and Brady, Ireland, Allitt, Sutcliffe\nDahmer, Nilsen, Yoshinori Ueda\nBlanche and Pickles, Amin, Manic Street Preachers\nGive them respect they deserve\nI give them the respect they deserve\nI give them the respect they deserve\nI give them the respect they d-e-s-e-r-v"
+}

@@ -1,0 +1,66 @@
+{
+ "_type": "song",
+ "annotation_count": 1,
+ "api_path": "/songs/2169190",
+ "artist_names": "Bikini Kill (Ft. Joan Jett)",
+ "full_title": "New Radio by\u00a0Bikini\u00a0Kill (Ft.\u00a0Joan\u00a0Jett)",
+ "header_image_thumbnail_url": "https://images.genius.com/09820d383569642b2a5b0f5a8ee91017.300x300x1.jpg",
+ "header_image_url": "https://images.genius.com/09820d383569642b2a5b0f5a8ee91017.400x400x1.jpg",
+ "id": 2169190,
+ "instrumental": false,
+ "language": "en",
+ "lyrics_owner_id": 1794485,
+ "lyrics_state": "complete",
+ "lyrics_updated_at": 1659054529,
+ "path": "/Bikini-kill-new-radio-lyrics",
+ "pyongs_count": 1,
+ "relationships_index_url": "https://genius.com/Bikini-kill-new-radio-sample",
+ "release_date_components": {
+  "year": 1993,
+  "month": 9,
+  "day": 1
+ },
+ "release_date_for_display": "September 1, 1993",
+ "release_date_with_abbreviated_month_for_display": "Sep. 1, 1993",
+ "song_art_image_thumbnail_url": "https://images.genius.com/09820d383569642b2a5b0f5a8ee91017.300x300x1.jpg",
+ "song_art_image_url": "https://images.genius.com/09820d383569642b2a5b0f5a8ee91017.400x400x1.jpg",
+ "stats": {
+  "unreviewed_annotations": 1,
+  "hot": false,
+  "pageviews": 8840
+ },
+ "title": "New Radio",
+ "title_with_featured": "New Radio (Ft.\u00a0Joan\u00a0Jett)",
+ "updated_by_human_at": 1659054594,
+ "url": "https://genius.com/Bikini-kill-new-radio-lyrics",
+ "featured_artists": [
+  {
+   "_type": "artist",
+   "api_path": "/artists/63682",
+   "header_image_url": "https://images.genius.com/60ba666ba451eff9e044448018da2e3e.1000x647x1.jpg",
+   "id": 63682,
+   "image_url": "https://images.genius.com/8c80f6d3c49ed08bd33eb9c7b51e1b31.950x950x1.jpg",
+   "index_character": "j",
+   "is_meme_verified": false,
+   "is_verified": false,
+   "name": "Joan Jett",
+   "slug": "Joan-jett",
+   "url": "https://genius.com/artists/Joan-jett"
+  }
+ ],
+ "primary_artist": {
+  "_type": "artist",
+  "api_path": "/artists/29871",
+  "header_image_url": "https://images.genius.com/ade9e0688850e348696d64ace70a36e8.1000x704x1.jpg",
+  "id": 29871,
+  "image_url": "https://images.genius.com/f50a53ef54e655ba86545c980d1343ef.400x400x1.jpg",
+  "index_character": "b",
+  "is_meme_verified": false,
+  "is_verified": false,
+  "name": "Bikini Kill",
+  "slug": "Bikini-kill",
+  "url": "https://genius.com/artists/Bikini-kill"
+ },
+ "artist": "Bikini Kill",
+ "lyrics": "One, two, three, four\n\n\nI'm the little girl at the picnic\nWho won't stop pulling her dress up\nIt doesn't matter who's in control now\nIt doesn't matter 'cause this is new radio\n\n\nWhat the fuck is written\nAll over your pretty face?\n\nThe gaps in teeth, the dirty nails\nBaby boy, you can't kill what's fuckin' real\nTurn that song down, turn the static up\nCome here baby, let me kiss you like a boy does\n\n\nWoah (woah), woah (woah) oh (woah)\nOh-oh (Oh-oh), oh, yeah, yeah, yeah, yeah, yeah, yeah, yeah\nYeah (Yeah), yeah (Yeah), yeah (Yeah), yeah (Yeah)\n\n\nLet's wipe our cum on my parents' bed\nCome onSee Bikini Kill LiveGet tickets as low as $44You might also li"
+}

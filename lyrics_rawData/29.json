@@ -1,0 +1,51 @@
+{
+ "_type": "song",
+ "annotation_count": 1,
+ "api_path": "/songs/1222469",
+ "artist_names": "Seether",
+ "full_title": "I\u2019m the One by\u00a0Seether",
+ "header_image_thumbnail_url": "https://images.genius.com/603e29d0374aec031bebcd954c178b2c.300x300x1.jpg",
+ "header_image_url": "https://images.genius.com/603e29d0374aec031bebcd954c178b2c.1000x1000x1.jpg",
+ "id": 1222469,
+ "instrumental": false,
+ "language": "en",
+ "lyrics_owner_id": 4834723,
+ "lyrics_state": "complete",
+ "lyrics_updated_at": 1570537784,
+ "path": "/Seether-im-the-one-lyrics",
+ "pyongs_count": null,
+ "relationships_index_url": "https://genius.com/Seether-im-the-one-sample",
+ "release_date_components": {
+  "year": 2005,
+  "month": 5,
+  "day": 24
+ },
+ "release_date_for_display": "May 24, 2005",
+ "release_date_with_abbreviated_month_for_display": "May. 24, 2005",
+ "song_art_image_thumbnail_url": "https://images.genius.com/603e29d0374aec031bebcd954c178b2c.300x300x1.jpg",
+ "song_art_image_url": "https://images.genius.com/603e29d0374aec031bebcd954c178b2c.1000x1000x1.jpg",
+ "stats": {
+  "unreviewed_annotations": 1,
+  "hot": false
+ },
+ "title": "I\u2019m the One",
+ "title_with_featured": "I\u2019m the One",
+ "updated_by_human_at": 1668925680,
+ "url": "https://genius.com/Seether-im-the-one-lyrics",
+ "featured_artists": [],
+ "primary_artist": {
+  "_type": "artist",
+  "api_path": "/artists/20913",
+  "header_image_url": "https://images.genius.com/a3675913ac91569fc9b4740ef14e4213.1000x1000x1.jpg",
+  "id": 20913,
+  "image_url": "https://images.genius.com/a3675913ac91569fc9b4740ef14e4213.1000x1000x1.jpg",
+  "index_character": "s",
+  "is_meme_verified": false,
+  "is_verified": false,
+  "name": "Seether",
+  "slug": "Seether",
+  "url": "https://genius.com/artists/Seether"
+ },
+ "artist": "Seether",
+ "lyrics": "Here she's coming and she's drunk again\nShe's only seventeen\nHer daddy said \"Well that's enough of that\nCome be my little queen\"\nAnd now he's touching her wrong again\nHe's gonna give her disease\nHe never wanted it anyway\nHe only does as he please\n\n\nWon't you tell her that I said I'm the one\nI couldn't hurt her like everyone\nAnd tell her that I said I'm the one\nAnd I don't deserve her!\n\nHere he's coming and he's drunk again\nHe's on amphetamines\nScratch his nails down the other leg\n'Cause you're my little queen\nAnd now he's touching her wrong again\nShe's only trying to get by\nHe never wanted it anyway\nHe never soils the child\n\n\nWon't you tell her that I said I'm the one\nI couldn't hurt her like everyone\nAnd tell her that I said I'm the one\nAnd I don't deserve her\nWon't you tell her that I said I'm the one\nI couldn't hurt her like everyone\nAnd tell her that I said I'm the one\nAnd I don't deserve her!\n\n\nWe're coming for you!\nYou!\n\n\nWon't you tell her that I said I'm the one\nI couldn't hurt her like everyone\nAnd tell her that I said I'm the one\nAnd I don't deserve her\nWon't you tell her that I said I'm the one\nI couldn't hurt her like everyone\nAnd tell her that I said I'm the one\nAnd I don't deserve her!See Seether LiveGet tickets as low as $234You might also l"
+}

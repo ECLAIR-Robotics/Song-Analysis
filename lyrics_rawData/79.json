@@ -1,0 +1,53 @@
+{
+ "_type": "song",
+ "annotation_count": 4,
+ "api_path": "/songs/208356",
+ "artist_names": "Avenged Sevenfold",
+ "full_title": "Requiem by\u00a0Avenged\u00a0Sevenfold",
+ "header_image_thumbnail_url": "https://images.genius.com/fcd40dcff05a82f24e087c66e4286437.300x300x1.png",
+ "header_image_url": "https://images.genius.com/fcd40dcff05a82f24e087c66e4286437.300x300x1.png",
+ "id": 208356,
+ "instrumental": false,
+ "language": "en",
+ "lyrics_owner_id": 228611,
+ "lyrics_state": "complete",
+ "lyrics_updated_at": 1639854030,
+ "path": "/Avenged-sevenfold-requiem-lyrics",
+ "pyongs_count": 10,
+ "relationships_index_url": "https://genius.com/Avenged-sevenfold-requiem-sample",
+ "release_date_components": {
+  "year": 2013,
+  "month": 8,
+  "day": 27
+ },
+ "release_date_for_display": "August 27, 2013",
+ "release_date_with_abbreviated_month_for_display": "Aug. 27, 2013",
+ "song_art_image_thumbnail_url": "https://images.genius.com/fcd40dcff05a82f24e087c66e4286437.300x300x1.png",
+ "song_art_image_url": "https://images.genius.com/fcd40dcff05a82f24e087c66e4286437.300x300x1.png",
+ "stats": {
+  "unreviewed_annotations": 0,
+  "hot": false,
+  "pageviews": 44518
+ },
+ "title": "Requiem",
+ "title_with_featured": "Requiem",
+ "updated_by_human_at": 1667862803,
+ "url": "https://genius.com/Avenged-sevenfold-requiem-lyrics",
+ "featured_artists": [],
+ "primary_artist": {
+  "_type": "artist",
+  "api_path": "/artists/20710",
+  "header_image_url": "https://images.genius.com/59006af3b1a7c911d3d9e25290614127.1000x665x1.jpg",
+  "id": 20710,
+  "image_url": "https://images.genius.com/9d4e5ba27d986c02ae790f7c8a531695.799x799x1.jpg",
+  "index_character": "a",
+  "is_meme_verified": false,
+  "is_verified": true,
+  "name": "Avenged Sevenfold",
+  "slug": "Avenged-sevenfold",
+  "url": "https://genius.com/artists/Avenged-sevenfold",
+  "iq": 103
+ },
+ "artist": "Avenged Sevenfold",
+ "lyrics": "Prodigia\nComploratus\nSilens, oro\nRegnet exitium\n\n\nDays of warning\nNight brings mourning\nMy prayers, wordless\nHeaven is burning down\nI walk stricken\nPitch-black vision\nO'one save me\nCaress my weary eyes\n\nDarkest Lord your mercy shall I gain\nStrike the match, engulf the earth in flames\nIn flames, in flames, in flames\n\n\nNature quaking\nProphets aching\nI kneel, faithful\nDamnation cracks the sky\nMy heart, fiction\nSuperstition\nYour grace, deathless\nGive life to my last breath\n\n\nDarkest Lord your mercy shall I gain\nStrike the match, engulf the earth in flames\nIn flames, in flames, in flames\n\n\nGrant them eternal rest in your honor\nEmbrace them into an army of undead\nStrike with vengeance those who oppose your will\nAnd lay waste to all unsufficently served before you\nWalk with them and free them from the blinding light of servitude\nAnd devastate your enemies as they die by your hand\nAmen\nYou might also like\nProdigia\nComploratus\nSilens, oro\nRegnet exitium\n\n\nRise from ashes\nViolence clashes\nMy soul vacant\nCleanse me of all this sin\nI stand guilty\nI bleed filthy\nBorn of fire\nSavor this final hour\n\n\nDarkest Lord your mercy shall I gain\nStrike the match, engulf the earth in flames\nIn flames, in flames, in flame"
+}

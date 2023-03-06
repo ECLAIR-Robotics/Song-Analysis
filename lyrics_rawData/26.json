@@ -1,0 +1,51 @@
+{
+ "_type": "song",
+ "annotation_count": 6,
+ "api_path": "/songs/84429",
+ "artist_names": "Sick Puppies",
+ "full_title": "Cancer by\u00a0Sick\u00a0Puppies",
+ "header_image_thumbnail_url": "https://images.genius.com/b96a909f41f63463bf182b616f635d2c.300x300x1.jpg",
+ "header_image_url": "https://images.genius.com/b96a909f41f63463bf182b616f635d2c.640x640x1.jpg",
+ "id": 84429,
+ "instrumental": false,
+ "language": "en",
+ "lyrics_owner_id": 24376,
+ "lyrics_state": "complete",
+ "lyrics_updated_at": 1439875664,
+ "path": "/Sick-puppies-cancer-lyrics",
+ "pyongs_count": 1,
+ "relationships_index_url": "https://genius.com/Sick-puppies-cancer-sample",
+ "release_date_components": {
+  "year": 2007,
+  "month": 4,
+  "day": 3
+ },
+ "release_date_for_display": "April 3, 2007",
+ "release_date_with_abbreviated_month_for_display": "Apr. 3, 2007",
+ "song_art_image_thumbnail_url": "https://images.genius.com/b96a909f41f63463bf182b616f635d2c.300x300x1.jpg",
+ "song_art_image_url": "https://images.genius.com/b96a909f41f63463bf182b616f635d2c.640x640x1.jpg",
+ "stats": {
+  "unreviewed_annotations": 5,
+  "hot": false
+ },
+ "title": "Cancer",
+ "title_with_featured": "Cancer",
+ "updated_by_human_at": 1504008493,
+ "url": "https://genius.com/Sick-puppies-cancer-lyrics",
+ "featured_artists": [],
+ "primary_artist": {
+  "_type": "artist",
+  "api_path": "/artists/23622",
+  "header_image_url": "https://images.genius.com/936e2168de6f2e481297813da41b89f4.1000x1000x1.jpg",
+  "id": 23622,
+  "image_url": "https://images.genius.com/936e2168de6f2e481297813da41b89f4.1000x1000x1.jpg",
+  "index_character": "s",
+  "is_meme_verified": false,
+  "is_verified": false,
+  "name": "Sick Puppies",
+  "slug": "Sick-puppies",
+  "url": "https://genius.com/artists/Sick-puppies"
+ },
+ "artist": "Sick Puppies",
+ "lyrics": "\nTell me all your plans and I'll laugh back in your face\nPreach me your religion if you're dumb enough to pray\nI tried to make a change to get a better way\nTo make a little more money\nI tried to get away to see if I could stay\nAnd look what I became honey\n\n\nWhat is it I'm after\nSearching for disaster\nWatching my whole life flash in front of my eyes\nWe've been given answers\nStill we're walking cancers\nDressed up as a life\n\n\n\nGet all your news from a corporate company\nTrade in your opinon for a gallon of gasoline, go!\nI tried to get away to see if I could stay\nAnd look what I became honey\n\n\n\nDressed up as a life\nDressed up as a life\n\nThis life is a waste of life\nThis life is a fucking lie\n\n\n\nDressed up as life\nDressed up as life\nDressed up asYou might also li"
+}

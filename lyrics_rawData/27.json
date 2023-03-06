@@ -1,0 +1,52 @@
+{
+ "_type": "song",
+ "annotation_count": 8,
+ "api_path": "/songs/486806",
+ "artist_names": "Black Veil Brides",
+ "full_title": "Knives and Pens by\u00a0Black\u00a0Veil Brides",
+ "header_image_thumbnail_url": "https://images.genius.com/250adae6f962297f2ebbca8c71a7cd87.300x300x1.jpg",
+ "header_image_url": "https://images.genius.com/250adae6f962297f2ebbca8c71a7cd87.1000x1000x1.jpg",
+ "id": 486806,
+ "instrumental": false,
+ "language": "en",
+ "lyrics_owner_id": 1092532,
+ "lyrics_state": "complete",
+ "lyrics_updated_at": 1588087091,
+ "path": "/Black-veil-brides-knives-and-pens-lyrics",
+ "pyongs_count": 39,
+ "relationships_index_url": "https://genius.com/Black-veil-brides-knives-and-pens-sample",
+ "release_date_components": {
+  "year": 2009,
+  "month": 6,
+  "day": 17
+ },
+ "release_date_for_display": "June 17, 2009",
+ "release_date_with_abbreviated_month_for_display": "Jun. 17, 2009",
+ "song_art_image_thumbnail_url": "https://images.genius.com/d182b3b8773cd74b2ac569d4012f7bb5.300x300x1.jpg",
+ "song_art_image_url": "https://images.genius.com/d182b3b8773cd74b2ac569d4012f7bb5.480x480x1.jpg",
+ "stats": {
+  "unreviewed_annotations": 7,
+  "hot": false,
+  "pageviews": 22002
+ },
+ "title": "Knives and Pens",
+ "title_with_featured": "Knives and Pens",
+ "updated_by_human_at": 1666094059,
+ "url": "https://genius.com/Black-veil-brides-knives-and-pens-lyrics",
+ "featured_artists": [],
+ "primary_artist": {
+  "_type": "artist",
+  "api_path": "/artists/14557",
+  "header_image_url": "https://images.genius.com/1cd28ae7ba53af6d8789fcb93266a890.1000x563x1.jpg",
+  "id": 14557,
+  "image_url": "https://images.genius.com/e35ad69915822305c581c62af0e5bcf6.900x900x1.jpg",
+  "index_character": "b",
+  "is_meme_verified": false,
+  "is_verified": false,
+  "name": "Black Veil Brides",
+  "slug": "Black-veil-brides",
+  "url": "https://genius.com/artists/Black-veil-brides"
+ },
+ "artist": "Black Veil Brides",
+ "lyrics": "Alone at last we can sit and fight\nAnd I've lost all faith in this blurring light\nStay right here we can change our plight\nStorming through this despite what's right\n\n\nOne final fight for this tonight, whoa-oh-oh\nWith knives and pens, we made our plight\n\n\nLay your heart down, the end's in sight\nConscience begs for you to do what's right\nEvery day it's still the same dull knife\nStab it through and justify your pride\n\nOne final fight for this tonight, whoa-oh-oh\nWith knives and pens we made our plight, whoa-oh-oh\n\n\nAnd I can't go on without your love, you lost, you never held on\nWe tried our best, turn out the light, turn out the light!\n\n\nOne final fight for this tonight, whoa-oh-oh\nWith knives and pens we made our plight, whoa-oh-oh\n\n\nAnd I can't go on without your love, you lost, you never held on\nWe tried our best, turn out the light, turn out the light!You might also lik"
+}

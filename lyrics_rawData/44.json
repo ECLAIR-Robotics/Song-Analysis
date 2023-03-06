@@ -1,0 +1,51 @@
+{
+ "_type": "song",
+ "annotation_count": 1,
+ "api_path": "/songs/1006555",
+ "artist_names": "Faith No More",
+ "full_title": "Got That Feeling by\u00a0Faith\u00a0No More",
+ "header_image_thumbnail_url": "https://images.genius.com/f676875567204fca6509147619c09ed8.300x300x1.jpg",
+ "header_image_url": "https://images.genius.com/f676875567204fca6509147619c09ed8.1000x1000x1.jpg",
+ "id": 1006555,
+ "instrumental": false,
+ "language": "en",
+ "lyrics_owner_id": 4872770,
+ "lyrics_state": "complete",
+ "lyrics_updated_at": 1593375206,
+ "path": "/Faith-no-more-got-that-feeling-lyrics",
+ "pyongs_count": null,
+ "relationships_index_url": "https://genius.com/Faith-no-more-got-that-feeling-sample",
+ "release_date_components": {
+  "year": 1997,
+  "month": 6,
+  "day": 3
+ },
+ "release_date_for_display": "June 3, 1997",
+ "release_date_with_abbreviated_month_for_display": "Jun. 3, 1997",
+ "song_art_image_thumbnail_url": "https://images.genius.com/f676875567204fca6509147619c09ed8.300x300x1.jpg",
+ "song_art_image_url": "https://images.genius.com/f676875567204fca6509147619c09ed8.1000x1000x1.jpg",
+ "stats": {
+  "unreviewed_annotations": 1,
+  "hot": false
+ },
+ "title": "Got That Feeling",
+ "title_with_featured": "Got That Feeling",
+ "updated_by_human_at": 1606042758,
+ "url": "https://genius.com/Faith-no-more-got-that-feeling-lyrics",
+ "featured_artists": [],
+ "primary_artist": {
+  "_type": "artist",
+  "api_path": "/artists/3931",
+  "header_image_url": "https://images.genius.com/8a4a2bb39c3723038915c2221fe3541c.1000x419x1.png",
+  "id": 3931,
+  "image_url": "https://s3.amazonaws.com/rapgenius/Faith-No-More-1-Courtesy-Speakeasy-PR-small.jpg",
+  "index_character": "f",
+  "is_meme_verified": false,
+  "is_verified": false,
+  "name": "Faith No More",
+  "slug": "Faith-no-more",
+  "url": "https://genius.com/artists/Faith-no-more"
+ },
+ "artist": "Faith No More",
+ "lyrics": "Got that feeling\nLuck is a little of it\nI got that feeling\nI can't stop winning\nI'm winning\n\n\nA to z\nLook what you're missing\nAs we speak\nYour numbers rising\nTake a peak\nThere's just enough to go around\nGet a piece\nYour own little piece of hell\n\nGet it, get it, get it, get it, get it, get your gold\nGet it, get it, get it, get it, get it, get your gold\nGet it, get it, get it, get it, get it, get your gold\nGet it, get it, get it, get it, get it, get your gold\nGet it, get it, get it, get it, get it, get your gold\nGet it, get it, get it, get it, get it, get your gold\nGet it, get it, get it, get it, get it, get your gold\nGet it, get it, get it, get it, get it, get it\n\n\nGot that feeling\nLoving every minute of it\nGot that feeling\nI can't stop winning\nStop winning\n\n\nHave a drink\nA pot of coffee\nCannot think\nToo many friends here\nJust an inch between striking out and striking rich\nIf that's the risk\nWhy not take it, take it, take it\nYou might also like\nGet it, get it, get it, get it, get it, get your gold\nGet it, get it, get it, get it, get it, get your gold\nGet it, get it, get it, get it, get it, get your gold\nGet it, get it, get it, get it, get it, get your gold\nGet it, get it, get it, get it, get it, get your gold\nGet it, get it, get it, get it, get it, get your gold\nGet it, get it, get it, get it, get it, get your gold\nGet it, get it, get it, get it, get it, get it\n\n\nGot that feeling\nLoving every minute of it\nGot that feeling\nI can't stop winning\nAnd start living\nStart winning\nStart living\n\n\nYou can't borrow, tomor"
+}

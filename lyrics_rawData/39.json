@@ -1,0 +1,67 @@
+{
+ "_type": "song",
+ "annotation_count": 16,
+ "api_path": "/songs/31343",
+ "artist_names": "Method Man (Ft. Raekwon)",
+ "full_title": "Meth Vs. Chef by\u00a0Method\u00a0Man (Ft.\u00a0Raekwon)",
+ "header_image_thumbnail_url": "https://images.genius.com/e8eea98eab886487258b11bd4e1cca4b.300x300x1.jpg",
+ "header_image_url": "https://images.genius.com/e8eea98eab886487258b11bd4e1cca4b.1000x1000x1.jpg",
+ "id": 31343,
+ "instrumental": false,
+ "language": "en",
+ "lyrics_owner_id": 50,
+ "lyrics_state": "complete",
+ "lyrics_updated_at": 1675670377,
+ "path": "/Method-man-meth-vs-chef-lyrics",
+ "pyongs_count": 5,
+ "relationships_index_url": "https://genius.com/Method-man-meth-vs-chef-sample",
+ "release_date_components": {
+  "year": 1994,
+  "month": 11,
+  "day": 15
+ },
+ "release_date_for_display": "November 15, 1994",
+ "release_date_with_abbreviated_month_for_display": "Nov. 15, 1994",
+ "song_art_image_thumbnail_url": "https://images.genius.com/e8eea98eab886487258b11bd4e1cca4b.300x300x1.jpg",
+ "song_art_image_url": "https://images.genius.com/e8eea98eab886487258b11bd4e1cca4b.1000x1000x1.jpg",
+ "stats": {
+  "unreviewed_annotations": 5,
+  "hot": false,
+  "pageviews": 36474
+ },
+ "title": "Meth Vs. Chef",
+ "title_with_featured": "Meth Vs. Chef (Ft.\u00a0Raekwon)",
+ "updated_by_human_at": 1675670377,
+ "url": "https://genius.com/Method-man-meth-vs-chef-lyrics",
+ "featured_artists": [
+  {
+   "_type": "artist",
+   "api_path": "/artists/76",
+   "header_image_url": "https://images.genius.com/a9018a996f420fdcc646ca5ac3caa401.320x212x1.jpg",
+   "id": 76,
+   "image_url": "https://images.genius.com/32fabf2b8b2eb256a0e1d6a14a76852f.500x500x1.jpg",
+   "index_character": "r",
+   "is_meme_verified": true,
+   "is_verified": true,
+   "name": "Raekwon",
+   "slug": "Raekwon",
+   "url": "https://genius.com/artists/Raekwon",
+   "iq": 4348
+  }
+ ],
+ "primary_artist": {
+  "_type": "artist",
+  "api_path": "/artists/228",
+  "header_image_url": "https://images.genius.com/47a7b90159c1ee382de2156693d2ae12.640x480x1.jpg",
+  "id": 228,
+  "image_url": "https://images.genius.com/5470fd0b50f9ec67465436a7dd4ec566.682x682x1.jpg",
+  "index_character": "m",
+  "is_meme_verified": false,
+  "is_verified": false,
+  "name": "Method Man",
+  "slug": "Method-man",
+  "url": "https://genius.com/artists/Method-man"
+ },
+ "artist": "Method Man",
+ "lyrics": "Your skill's worthy of a general\nIf you want to fight, fight with me!\nOne to one! Man to man!\n\n\nGet ready to yell, team!\nLive and direct from the One-Six-Ooh\nWe got Tical, pow! Raekwon the Chef, Tical!\nIt's about to go on, Tical\nYou make the call, I make the call\nIt's all for all\nMethod Man, Raekwon the Chef\n(Count my shells)\nAnd there's about to be one left\n(Count my shells, nigga)\nI know you know it's on kid\n(Bring that shit, I don't give a fuck!)\n\nWho lit that shit it was I the chinky eye\nChiba-hawk from New York, Tical Staten Isle\nNiggas thought, that they could walk a dog but they caught\nA bad situation 'cause I'm a sandwich short\nOf a picnic 'cause you ain't equipped with the sickening\nStyle, blowing up the spot like ballistic\nMissiles, I be coming through like the four-nine-three-eleven\nTearing up the power-u, Meth-Tical\nA bad motherfucking buddha monk, what the fuck\nHit your chest, like cardiac arrest, blow the front\nOut the frame, hit the pussycat for the pain\nOf the dog shit, nobody move, run your garments\nA rugged vet, durable like a Champion sweat\nWrap a power in a tec, to wet\nA nigga up with all the dangerous diseases\nSniffling, sneezing, coughing, aching, stuffy head fever\nFucker, I think it's 'bout time that you suffer\nBobbing on my knob like an all-day sucker\nBitch!\n\n\nMeth Vs. Chef\nMeth Vs. Chef (Let's bring this shit)\nMeth Vs. Chef (Yeah, one more time!)\nMeth Vs. Chef\nI blow your fuckin ass to death\nYou might also like\nI'm goin all out kid no turnbacks\nYou could try to front, get smoked and that's that\nLyric assassin, dressed in black rugged\nSixteen shots to your mug from a slug then\nI go to war in a concrete jungle, making bundles\nNiggas act funny and fumble\nBut I relax, count my shells, a lot of heads got to fly\nNiggas stay strapped, armed to die\nTime for jet-black Timb boot, flowing\nWhere Su God get him, hit 'em with the nine troop\nNo question, cha-cha-BOW in the session\nBloodshot in that direction, cypher\nAttack you like chess moves, best moves\nYo, yeah, yo\nThe boards, your ass\n'Tack, 'tack, 'tack, uh!\nAttack the boards like chess moves, best move\nAt Rae through, coming at your motherfucking crew\nLive direct, yeah you better step\nGunshots ring on the set\nLet's jet - motivate, to the gate\nWith some quick high Rae stay fly and rob your Isle\nAirwaves, yo behave\nNow you're a slave with the boots that paved the w"
+}

@@ -1,0 +1,52 @@
+{
+ "_type": "song",
+ "annotation_count": 9,
+ "api_path": "/songs/36790",
+ "artist_names": "Public Enemy",
+ "full_title": "Power to the People by\u00a0Public\u00a0Enemy",
+ "header_image_thumbnail_url": "https://images.genius.com/887ce7b9f4406855000a1117d69fcb2f.300x306x1.jpg",
+ "header_image_url": "https://images.genius.com/887ce7b9f4406855000a1117d69fcb2f.980x1000x1.jpg",
+ "id": 36790,
+ "instrumental": false,
+ "language": "en",
+ "lyrics_owner_id": 50,
+ "lyrics_state": "complete",
+ "lyrics_updated_at": 1675443077,
+ "path": "/Public-enemy-power-to-the-people-lyrics",
+ "pyongs_count": null,
+ "relationships_index_url": "https://genius.com/Public-enemy-power-to-the-people-sample",
+ "release_date_components": {
+  "year": 1990,
+  "month": 4,
+  "day": 10
+ },
+ "release_date_for_display": "April 10, 1990",
+ "release_date_with_abbreviated_month_for_display": "Apr. 10, 1990",
+ "song_art_image_thumbnail_url": "https://images.genius.com/887ce7b9f4406855000a1117d69fcb2f.300x306x1.jpg",
+ "song_art_image_url": "https://images.genius.com/887ce7b9f4406855000a1117d69fcb2f.980x1000x1.jpg",
+ "stats": {
+  "unreviewed_annotations": 4,
+  "hot": false,
+  "pageviews": 9250
+ },
+ "title": "Power to the People",
+ "title_with_featured": "Power to the People",
+ "updated_by_human_at": 1675443077,
+ "url": "https://genius.com/Public-enemy-power-to-the-people-lyrics",
+ "featured_artists": [],
+ "primary_artist": {
+  "_type": "artist",
+  "api_path": "/artists/203",
+  "header_image_url": "https://images.genius.com/2fc3c0101225462f95f494685c92e377.1000x525x1.jpg",
+  "id": 203,
+  "image_url": "https://images.genius.com/04e955b7303db3639fb9b82dc57b81b2.709x709x1.jpg",
+  "index_character": "p",
+  "is_meme_verified": false,
+  "is_verified": false,
+  "name": "Public Enemy",
+  "slug": "Public-enemy",
+  "url": "https://genius.com/artists/Public-enemy"
+ },
+ "artist": "Public Enemy",
+ "lyrics": "(Power to the people)\n\nGet on up, get into it, get involved\nFeel the bass as the cut revolves\nTo the brothers wit the 808\nLike I said before PE got a brand new funk\nTurn it up, boom the trunk, yeah\nInternationally known on the microphone\nMakin' sure the brothers will never leave you alone\nTo my sisters\nSisters yes we missed ya\nLet's get it together make a nation\nYou can bet on it, don't sleep on it\nCause the troops cold jeepin' it pumpin\n(Power to the people)\n\nTurn us loose we shall overcome\nThey say where you get that bass from\nHey ohh people, people as we continue on\nCome along, sings this song, are you ready for '91\nRhythm nation pump that bass an\nWe like to know from Chicago, New York and LA\nAre y'all ready, cause the plans in the jam\nAnd we're ready to roll yo y'all got to tell me\nAre y'all ready to go c'mon\n\n(Power to the people)\n\nHad to kick it like that as we roll as one\nOne under the sun, to all the cities and to the side\nBrothers and sister stateside and the whole wide world\nThere it is\nP-e-a-c-e 1991You might also l"
+}

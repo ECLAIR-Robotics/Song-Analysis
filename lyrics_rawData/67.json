@@ -1,0 +1,52 @@
+{
+ "_type": "song",
+ "annotation_count": 4,
+ "api_path": "/songs/191665",
+ "artist_names": "Big Black",
+ "full_title": "Kerosene by\u00a0Big\u00a0Black",
+ "header_image_thumbnail_url": "https://images.genius.com/48d84a290c705745d775dc69dd192903.300x300x1.jpg",
+ "header_image_url": "https://images.genius.com/48d84a290c705745d775dc69dd192903.583x583x1.jpg",
+ "id": 191665,
+ "instrumental": false,
+ "language": "en",
+ "lyrics_owner_id": 255330,
+ "lyrics_state": "complete",
+ "lyrics_updated_at": 1663281413,
+ "path": "/Big-black-kerosene-lyrics",
+ "pyongs_count": 6,
+ "relationships_index_url": "https://genius.com/Big-black-kerosene-sample",
+ "release_date_components": {
+  "year": 1986,
+  "month": null,
+  "day": null
+ },
+ "release_date_for_display": "1986",
+ "release_date_with_abbreviated_month_for_display": "1986",
+ "song_art_image_thumbnail_url": "https://images.genius.com/48d84a290c705745d775dc69dd192903.300x300x1.jpg",
+ "song_art_image_url": "https://images.genius.com/48d84a290c705745d775dc69dd192903.583x583x1.jpg",
+ "stats": {
+  "unreviewed_annotations": 0,
+  "hot": false,
+  "pageviews": 15402
+ },
+ "title": "Kerosene",
+ "title_with_featured": "Kerosene",
+ "updated_by_human_at": 1631833938,
+ "url": "https://genius.com/Big-black-kerosene-lyrics",
+ "featured_artists": [],
+ "primary_artist": {
+  "_type": "artist",
+  "api_path": "/artists/57506",
+  "header_image_url": "https://images.genius.com/2aa8e183f900237b294ff6e82d88446b.800x579x1.png",
+  "id": 57506,
+  "image_url": "https://images.genius.com/2aa8e183f900237b294ff6e82d88446b.800x579x1.png",
+  "index_character": "b",
+  "is_meme_verified": false,
+  "is_verified": false,
+  "name": "Big Black",
+  "slug": "Big-black",
+  "url": "https://genius.com/artists/Big-black"
+ },
+ "artist": "Big Black",
+ "lyrics": "Live here my whole life\nProbably come to die in this town\nLive here my whole life\nNever anything to do in this town\nLive here my whole life\nNever anything to do in this town\nLive here my whole life\nProbably learn to die in this town\nLive here my whole life\nNothing to do, sit around at home\nSit around at home, stare at the walls\nStare at each other and wait till we die\nStare at each other and wait till we die\nProbably come to die in this town\nLive here my whole life\nThere's Kerosene around, something to do\nThere's Kerosene around, she's something to do\nThere's Kerosene around, she's something to do\nThere's Kerosene around, we'll find something to do\nKerosene around, she's something to do\nKerosene around, set me on fire\nSet me on fire, Kerosene\nSet me on fire, Kerosene\nSet me on fire, Kerosene\nSet me on fire, Kerosene\nSet me on fire\nKerosene around, something to do\nThere's Kerosene around, find something to do\nThere's Kerosene around, find something to do\nKerosene around, find something to do\nKerosene around, she's something to do\nKerosene around, set me on fire\nSet me on fire, Kerosene\nSet me on fire, Kerosene\nSet me on fire, Kerosene\nSet me on fire, Kerosene\nSet me on fire\nKerosene around, she's something to do\nKerosene around, now what do we do?\nJumped Kerosene, now what do we do?\nJumped Kerosene, now what do we do?\nKerosene around, nothing to do\nJumped Kerosene, now what do we do?\nNever anything to do in this town\nNever anything but jump Kerosene\nNever anything to do in this town\nNever anything\nJump Kerosene\nSet me on fire, Kerosene\nSet me on fire, Kerosene\nSet me on fire, Kerosene\nSet me on fire, Kerosene\nSet me on fireYou might also li"
+}

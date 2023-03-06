@@ -1,0 +1,51 @@
+{
+ "_type": "song",
+ "annotation_count": 1,
+ "api_path": "/songs/1151549",
+ "artist_names": "The Animals",
+ "full_title": "Boom Boom by\u00a0The\u00a0Animals",
+ "header_image_thumbnail_url": "https://images.genius.com/1619c0537a8ea57e50adc7cfec89baf0.300x300x1.jpg",
+ "header_image_url": "https://images.genius.com/1619c0537a8ea57e50adc7cfec89baf0.300x300x1.jpg",
+ "id": 1151549,
+ "instrumental": false,
+ "language": "en",
+ "lyrics_owner_id": 2523967,
+ "lyrics_state": "complete",
+ "lyrics_updated_at": 1538607893,
+ "path": "/The-animals-boom-boom-lyrics",
+ "pyongs_count": null,
+ "relationships_index_url": "https://genius.com/The-animals-boom-boom-sample",
+ "release_date_components": {
+  "year": 1964,
+  "month": null,
+  "day": null
+ },
+ "release_date_for_display": "1964",
+ "release_date_with_abbreviated_month_for_display": "1964",
+ "song_art_image_thumbnail_url": "https://images.genius.com/1619c0537a8ea57e50adc7cfec89baf0.300x300x1.jpg",
+ "song_art_image_url": "https://images.genius.com/1619c0537a8ea57e50adc7cfec89baf0.300x300x1.jpg",
+ "stats": {
+  "unreviewed_annotations": 0,
+  "hot": false
+ },
+ "title": "Boom Boom",
+ "title_with_featured": "Boom Boom",
+ "updated_by_human_at": 1609097167,
+ "url": "https://genius.com/The-animals-boom-boom-lyrics",
+ "featured_artists": [],
+ "primary_artist": {
+  "_type": "artist",
+  "api_path": "/artists/24716",
+  "header_image_url": "https://images.genius.com/3678c1190b7cebd0945b5e0efd7a0ec2.1000x750x1.jpg",
+  "id": 24716,
+  "image_url": "https://images.genius.com/3678c1190b7cebd0945b5e0efd7a0ec2.1000x750x1.jpg",
+  "index_character": "a",
+  "is_meme_verified": false,
+  "is_verified": false,
+  "name": "The Animals",
+  "slug": "The-animals",
+  "url": "https://genius.com/artists/The-animals"
+ },
+ "artist": "The Animals",
+ "lyrics": "Boom boom boom boom\nGonna shoot you right down\nTake you in my arms\nI'm in love with you\nLove that is true\nBoom boom boom boom\n\n\nI like the way you walk\nI like the way you talk\nWhen you walk that walk\nAnd you talk that talk\nYou knock me out\nRight off of my feet\n\nC'mon and shake (Shake it baby)\nShake it up baby (Shake it baby)\nC'mon now baby (Shake it baby)\nI don't mean maybe (Shake it baby)\nYou're driving me crazy (Shake it baby)\nC'mon, c'mon (Shake it baby)\n\n\nC'mon and shake (Shake it baby)\nShake it up baby (Shake it baby)\nYeah, shake (Shake it baby)\nI don't mean maybe (Shake it baby)\nYou're driving me crazy (Shake it baby)\nC'mon, c'mon (Shake it baby)\nAll right, all right\nCome on, baby\n\n\nThe way you walk\nThe way you talk\nWhen you walkin' that walk\nAnd talkin' that talk\nYou knock me out\nRight off of my feet\nI need you right now\nI mean right now\nCome on, come on\nCome on, shake it up baby\nYou might also like\nC'mon and shake (Shake it baby)\nShake it up baby (Shake it baby)\nC'mon now baby (Shake it baby)\nC'mon now baby (Shake it baby)\nCome on and shake (Shake it baby)\nAlright, alright\n\n\nC'mon and shake (Shake it baby)\nShake it up baby (Shake it baby)\nC'mon and shake (Shake it baby)\nShake, shake, shake (Shake it baby)\nShake it up baby (Shake it baby)\nCome on, baby\nAll right, all ri"
+}

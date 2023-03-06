@@ -1,0 +1,52 @@
+{
+ "_type": "song",
+ "annotation_count": 1,
+ "api_path": "/songs/1133929",
+ "artist_names": "Danzig",
+ "full_title": "Tired of Being Alive by\u00a0Danzig",
+ "header_image_thumbnail_url": "https://images.genius.com/dd719c558c4d45528d1b6aaa2692f2c0.300x300x1.jpg",
+ "header_image_url": "https://images.genius.com/dd719c558c4d45528d1b6aaa2692f2c0.1000x1000x1.jpg",
+ "id": 1133929,
+ "instrumental": false,
+ "language": "en",
+ "lyrics_owner_id": 1683094,
+ "lyrics_state": "complete",
+ "lyrics_updated_at": 1612164470,
+ "path": "/Danzig-tired-of-being-alive-lyrics",
+ "pyongs_count": 2,
+ "relationships_index_url": "https://genius.com/Danzig-tired-of-being-alive-sample",
+ "release_date_components": {
+  "year": 1990,
+  "month": 6,
+  "day": 26
+ },
+ "release_date_for_display": "June 26, 1990",
+ "release_date_with_abbreviated_month_for_display": "Jun. 26, 1990",
+ "song_art_image_thumbnail_url": "https://images.genius.com/dd719c558c4d45528d1b6aaa2692f2c0.300x300x1.jpg",
+ "song_art_image_url": "https://images.genius.com/dd719c558c4d45528d1b6aaa2692f2c0.1000x1000x1.jpg",
+ "stats": {
+  "unreviewed_annotations": 0,
+  "hot": false,
+  "pageviews": 6150
+ },
+ "title": "Tired of Being Alive",
+ "title_with_featured": "Tired of Being Alive",
+ "updated_by_human_at": 1612164470,
+ "url": "https://genius.com/Danzig-tired-of-being-alive-lyrics",
+ "featured_artists": [],
+ "primary_artist": {
+  "_type": "artist",
+  "api_path": "/artists/49962",
+  "header_image_url": "https://images.genius.com/eedecac764038326e86473294d5e0391.1000x1000x1.jpg",
+  "id": 49962,
+  "image_url": "https://images.genius.com/b37cb36cfbcaea1ae1cef324d514bf94.1000x1000x1.jpg",
+  "index_character": "d",
+  "is_meme_verified": false,
+  "is_verified": false,
+  "name": "Danzig",
+  "slug": "Danzig",
+  "url": "https://genius.com/artists/Danzig"
+ },
+ "artist": "Danzig",
+ "lyrics": "Don't care\nIf 'n' you die\nAin't got no reason to cry\nDon't feel\nDon't need to\nYour world ain't nothing to me\nI'm fear\nI'm your heretic\nI'm doom waiting for the number\n7 up 7\nTo the 6 on 6\nBring it on to me\n\nAnd I'm tired of being alive\nSpite of the bleeding\nBleeding light\nAnd I'm tired of their bleeding light\nDon't try to feed me\nFull of your lies\n\n\nNo regrets\nTo bring me no tears\nNever scared of things men fear\nNever easy\nNever clean\nTo be a beast among human sheep\nI am fear\nI am your heretic\nI am your doom\nWaiting for the number\n7 on 7\nTo the 6 on 6\nBring it on to me\n\n\nAnd I'm tired of being alive\nSpite of the bleeding\nBleeding light\nAnd I'm tired of their bleeding light\nDon't try to feed me\nFull of your lies\nYou might also like\nAnd I'm tired of being alive\nSpite of the bleeding\nBleeding light\nAnd I'm tired of their bleeding light\nDon't try to feed me\nFull of your lies\n\n\nOh yeah, oh yeah\nI'm tired\nTired of their bleeding\nOh yeah, oh ye"
+}

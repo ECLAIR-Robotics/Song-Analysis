@@ -1,0 +1,65 @@
+{
+ "_type": "song",
+ "annotation_count": 1,
+ "api_path": "/songs/2280553",
+ "artist_names": "Damageplan (Ft. Corey Taylor)",
+ "full_title": "Fuck You by\u00a0Damageplan (Ft.\u00a0Corey\u00a0Taylor)",
+ "header_image_thumbnail_url": "https://images.genius.com/2a8475ee7cc4b9ded1fab1ac03cb4789.220x220x1.jpg",
+ "header_image_url": "https://images.genius.com/2a8475ee7cc4b9ded1fab1ac03cb4789.220x220x1.jpg",
+ "id": 2280553,
+ "instrumental": false,
+ "language": "en",
+ "lyrics_owner_id": 6578,
+ "lyrics_state": "complete",
+ "lyrics_updated_at": 1439422532,
+ "path": "/Damageplan-fuck-you-lyrics",
+ "pyongs_count": 1,
+ "relationships_index_url": "https://genius.com/Damageplan-fuck-you-sample",
+ "release_date_components": {
+  "year": 2004,
+  "month": 2,
+  "day": 10
+ },
+ "release_date_for_display": "February 10, 2004",
+ "release_date_with_abbreviated_month_for_display": "Feb. 10, 2004",
+ "song_art_image_thumbnail_url": "https://images.genius.com/2a8475ee7cc4b9ded1fab1ac03cb4789.220x220x1.jpg",
+ "song_art_image_url": "https://images.genius.com/2a8475ee7cc4b9ded1fab1ac03cb4789.220x220x1.jpg",
+ "stats": {
+  "unreviewed_annotations": 0,
+  "hot": false
+ },
+ "title": "Fuck You",
+ "title_with_featured": "Fuck You (Ft.\u00a0Corey\u00a0Taylor)",
+ "updated_by_human_at": 1569023656,
+ "url": "https://genius.com/Damageplan-fuck-you-lyrics",
+ "featured_artists": [
+  {
+   "_type": "artist",
+   "api_path": "/artists/44044",
+   "header_image_url": "https://images.genius.com/118c5d10a82f6040d3155df1b42c720e.1000x523x1.jpg",
+   "id": 44044,
+   "image_url": "https://images.genius.com/00be22169b7c272db9e1f38438982627.1000x1000x1.jpg",
+   "index_character": "c",
+   "is_meme_verified": false,
+   "is_verified": false,
+   "name": "Corey Taylor",
+   "slug": "Corey-taylor",
+   "url": "https://genius.com/artists/Corey-taylor"
+  }
+ ],
+ "primary_artist": {
+  "_type": "artist",
+  "api_path": "/artists/350976",
+  "header_image_url": "https://images.genius.com/049c41fa187b6391159095210248e447.1000x562x1.jpg",
+  "id": 350976,
+  "image_url": "https://images.genius.com/2df913d56ed0ee71d35ae1b5cfc8d9b9.152x152x1.jpg",
+  "index_character": "d",
+  "is_meme_verified": false,
+  "is_verified": false,
+  "name": "Damageplan",
+  "slug": "Damageplan",
+  "url": "https://genius.com/artists/Damageplan"
+ },
+ "artist": "Damageplan",
+ "lyrics": "I want nothing more from you\nMy sanity is wearing thin\nIrate, I hate\nYou determined your own fate\nNow everything is caving in\n\nFuck your power trip and\nFuck your attitude and\nFuck your bloated ego too\nFuck your history\nYour tragedy, your misery\nBut most of all fuck you\nFuck you, fuck you, fuck you\n\nFuck this, all of this\nBitch and moan and bleed and piss\nSeconds away from goin' down\nGo ahead and push me\nYour fakery, your butchery\nIs nothing compared to my hate for you\n\nFuck your apathy and\nFuck your empathy and\nFuck your nihilism too\nFuck your bitter pills\nTake 'em all, you never will\nBut most of all fuck you\n\nFuck you, fuck you, fuck you\nFuck you, fuck you, fuck you, fuck you\n\nNothing changes, nothing fazes, nothing stays the same\nNothing changes, nothing fazes, nothing stays the same\n\nYou consulate, just a touch\nLet myself be considered for themselves\nLet's sit up\nHear that sound\nIt's not time to hang out\nYou might also likeThe summer eclipse doesn't exist\nDon't watch it and hate the world\n\nFuck your power trip and\nFuck your attitude and\nFuck your bloated ego too\nFuck your history\nYour tragedy, your misery\nBut most of all, motherfucker fuck you\n\nFuck you, fuck you, fuck you\nFuck you, fuck you, fuck you, fuck y"
+}

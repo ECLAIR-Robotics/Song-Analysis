@@ -1,0 +1,52 @@
+{
+ "_type": "song",
+ "annotation_count": 3,
+ "api_path": "/songs/1755388",
+ "artist_names": "Type O Negative",
+ "full_title": "Kill All the White People by\u00a0Type\u00a0O Negative",
+ "header_image_thumbnail_url": "https://images.genius.com/a22ad8c1b4a7b1d7fcf7b5c9c26db03f.300x300x1.jpg",
+ "header_image_url": "https://images.genius.com/a22ad8c1b4a7b1d7fcf7b5c9c26db03f.1000x1000x1.jpg",
+ "id": 1755388,
+ "instrumental": false,
+ "language": "en",
+ "lyrics_owner_id": 1656333,
+ "lyrics_state": "complete",
+ "lyrics_updated_at": 1673019296,
+ "path": "/Type-o-negative-kill-all-the-white-people-lyrics",
+ "pyongs_count": 2,
+ "relationships_index_url": "https://genius.com/Type-o-negative-kill-all-the-white-people-sample",
+ "release_date_components": {
+  "year": 1993,
+  "month": 8,
+  "day": 17
+ },
+ "release_date_for_display": "August 17, 1993",
+ "release_date_with_abbreviated_month_for_display": "Aug. 17, 1993",
+ "song_art_image_thumbnail_url": "https://images.genius.com/a22ad8c1b4a7b1d7fcf7b5c9c26db03f.300x300x1.jpg",
+ "song_art_image_url": "https://images.genius.com/a22ad8c1b4a7b1d7fcf7b5c9c26db03f.1000x1000x1.jpg",
+ "stats": {
+  "unreviewed_annotations": 2,
+  "hot": false,
+  "pageviews": 33351
+ },
+ "title": "Kill All the White People",
+ "title_with_featured": "Kill All the White People",
+ "updated_by_human_at": 1673019297,
+ "url": "https://genius.com/Type-o-negative-kill-all-the-white-people-lyrics",
+ "featured_artists": [],
+ "primary_artist": {
+  "_type": "artist",
+  "api_path": "/artists/232849",
+  "header_image_url": "https://images.genius.com/73b4ae1d4e4336c809ab737b9061cc36.1000x747x1.jpg",
+  "id": 232849,
+  "image_url": "https://images.genius.com/8a40e2ecc26e897ca8d3a0d2626863ba.960x960x1.jpg",
+  "index_character": "t",
+  "is_meme_verified": false,
+  "is_verified": false,
+  "name": "Type O Negative",
+  "slug": "Type-o-negative",
+  "url": "https://genius.com/artists/Type-o-negative"
+ },
+ "artist": "Type O Negative",
+ "lyrics": "Kill all the white people\nThen we'll be free\nWe'll be free\n\nKill all the white people\n(Kill all the white people)\nKill all the white people\n(Kill all the white people)\nThen we'll be free (we'll be free)\nWe'll be free (oh)\nUgh\nAh\nKill them all, man\nKill them all\n\n(1, 2, 3, 4)\n(1, 2, 3, 4)\n(1, 2, 3, 4)\n\nOoh, ah\nOoh, ah\n\nThen we'll be free (then we'll be free)\nThen we'll be free (then we'll be free)\nThen we'll be free (then we'll be free)\nWe'll be free (oh)\n\nOoh power\nBlack power\nDestroy white boy\n\nBy any means necessary\nWordYou might also li"
+}

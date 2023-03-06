@@ -13,9 +13,10 @@ df = pd.read_csv('muse_v3.csv')
 tqdm.pandas()
 df['track-artist'] = df['track'].apply(lambda i: [i])
 df['track-artist'] = df['track-artist'] + df['artist'].apply(lambda i: [i])
+df['track-artist'] = pd.Series(df.index).apply(lambda i: [i]) + df['track-artist']
 
 
-df['track-artist'].progress_apply(lambda i: getLyrics(i.name, i[0], i[1]))
+df['track-artist'].progress_apply(lambda i: getLyrics(*i))
 
 
 print(df.head())
