@@ -1,1 +1,5 @@
 config.py
+wiki-news*
+**/.ipynb_checkpoints
+llm/distilgpt2-finetuned-v1
+llm/distilgpt2-finetuned-v2
