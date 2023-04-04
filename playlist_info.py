@@ -5,7 +5,7 @@ import config
 import json
 import requests
 
-def run():
+def run(user_id):
     #may not be using all of the imports in this file
     CLIENT_ID = config.spotify_CLIENT_ID
     CLIENT_SECRET = config.spotify_CLIENT_SECRET
@@ -34,7 +34,7 @@ def run():
     BASE_URL = 'https://api.spotify.com/v1/'
 
     # Track ID from the URI
-    user_id = 'mmurali20'
+    user_id = user_id
 
     # actual GET request with proper header
     r = requests.get(BASE_URL + 'users/' + user_id+ '/playlists?offset=0&limit=50', headers=headers)
@@ -104,6 +104,6 @@ def isEnglish(s):
         return True
 
 if __name__ == '__main__':
-    list_of_playlists = run()
+    list_of_playlists = run('mmurali20')
     for i in range(len(list_of_playlists)):
       print(items_of_playlist(list_of_playlists[i]))
