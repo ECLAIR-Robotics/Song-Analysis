@@ -43,4 +43,7 @@ r = r.json()
 with open("Mehul's_playlists.json", "w") as outfile:
     json.dump(r, outfile)
 
-print(len(r['items'])) #debugging
+for i in range(len(r['items'])):
+ print(r['items'][i]['id'])
+ print() 
+#debugging
