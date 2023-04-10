@@ -4,6 +4,9 @@ from spotipy.oauth2 import SpotifyClientCredentials
 import config
 import json
 import requests
+import shutil
+import os
+
 
 
 client_id = config.spotify_CLIENT_ID
@@ -66,16 +69,28 @@ def get_playlist_tracks(username,playlist_info):
         results = sp.next(results)
         tracks.extend(results['items'])
     
-    with open(playlist_name+".txt", "w") as outfile:
+    #if isEnglish(playlist_name) == False:
+    #    playlist_name = play_id
+    if os.path.exists(f'{username}_playlists/{play_id}.txt') :
+            return
+    with open(play_id+".txt", "w") as outfile:
         for i in range(len(tracks)):
           if tracks[i]['track'] != None:
            if isEnglish(tracks[i]['track']['name']) and isEnglish(tracks[i]['track']['artists'][0]['name']): 
             outfile.write(tracks[i]['track']['name'] +"; " + tracks[i]['track']['artists'][0]['name'] +"\n")
+   
+    directory = username+"_playlists"
+  
+    # Parent Directory path
+    parent_dir = "C:/Users/mehul/3D Objects/Song-Analysis"
+  
+    # Path
+    path = os.path.join(parent_dir, directory)
+    if os.path.exists(f'{username}_playlists') == False :
+     os.mkdir(path)
+    shutil.move(play_id+'.txt', f'{username}_playlists/{play_id}.txt')
 
-#    with open(playlist_id+".txt", "w") as outfile:
-#        for i in range(len(r['items'])):
-#          if isEnglish(r['items'][i]['track']['name']) and isEnglish(r['items'][i]['track']['artists'][0]['name']): 
-#           outfile.write(r['items'][i]['track']['name']+ "; "+ r['items'][i]['track']['artists'][0]['name'] + "\n") 
+ 
     return 0
 
 def isEnglish(s):
@@ -88,9 +103,11 @@ def isEnglish(s):
     
     else:
         return True
-
-if __name__ == '__main__':
-    list_of_playlists = run('mmurali20')
+    
+def main(user_id):
+    list_of_playlists = run(user_id)
     for i in range(len(list_of_playlists)):
-      print(get_playlist_tracks("mmurali20",list_of_playlists[i]))
+      print(get_playlist_tracks(user_id,list_of_playlists[i]))
+if __name__ == '__main__':
+    main('mmurali20')
     #print(get_playlist_tracks("mmurali20","0KeRsGnBhW4YkE9MECH3X0"))
