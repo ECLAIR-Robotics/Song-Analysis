@@ -4,6 +4,14 @@ import requests
 from bs4 import BeautifulSoup
 import re
 
+def tester():
+    lis = "C.R.E.A.M. (Cash Rules Everything Around Me) (feat. Method Man, Raekwon, Inspectah Deck & Buddha Monk)"
+    lis= re.sub(r'\([^]]*\)', '', lis)
+    lis = lis.strip()
+    print(lis)
+
+tester()
+    
 def scrapeSong(title, artist):
     title = title.replace(" ", "+")
     artist = artist.replace(" ", "+")
@@ -38,6 +46,7 @@ def getLyrics():
                 with open(os.path.join(subdir, file)) as f:
                     for line in f.readlines():
                         title = line.split(';')[0]
+                        title = re.sub(r'\([^]]*\)', '', title)
                         artist = line.split(';')[1].lstrip()
                         #call api here
                         lyricString = api.getLyrics(title, artist)
