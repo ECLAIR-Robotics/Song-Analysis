@@ -82,7 +82,7 @@ def get_playlist_tracks(username,playlist_info):
     directory = username+"_playlists"
   
     # Parent Directory path
-    parent_dir = "C:/Users/mehul/3D Objects/Song-Analysis"
+    parent_dir = os.getcwd() + "/Users"
   
     # Path
     path = os.path.join(parent_dir, directory)
