@@ -5,22 +5,41 @@ from bs4 import BeautifulSoup
 import re
 
 def tester():
-    lis = "C.R.E.A.M. (Cash Rules Everything Around Me) (feat. Method Man, Raekwon, Inspectah Deck & Buddha Monk)"
+    lis = "Smooth Criminal - 2012 Remaster"
+    pattern = re.compile('(- [^-]*)$')
+    lis = pattern.sub('', lis)
     lis= re.sub(r'\([^]]*\)', '', lis)
+    lis = re.sub(r'\[[^]]*\]', '', lis)
     lis = lis.strip()
     print(lis)
 
-tester()
+#tester()
+
+def isEnglish(s):
+    if s is None:
+       return False
+    try:
+        s.encode(encoding='utf-8').decode('ascii')
+    except UnicodeDecodeError:
+        return False
     
+    else:
+        return True
+        
 def scrapeSong(title, artist):
+    pattern = re.compile('(- [^-]*)$') #gets rid of - Single Version, - 2012 Remaster etc without affecting songs with an actual hyphen
+    title = pattern.sub('', title)
+    title= re.sub(r'\([^]]*\)', '', title)
+    title = re.sub(r'\[[^]]*\]', '', title)
+    title = title.strip()
     title = title.replace(" ", "+")
     artist = artist.replace(" ", "+")
-    baseURL = "https://dm.vern.cc/search?q="
+    baseURL = "https://sing.whatever.social/search?q="
     searchURL = f'{baseURL}{title}+{artist}'
     r = requests.get(searchURL)
     soup = BeautifulSoup(r.content, 'html5lib')
     songLink = soup.find('a', attrs = {'id':"search-item"})['href']
-    songLink = baseURL[:18]+songLink
+    songLink = baseURL[:28]+songLink
     
     r = requests.get(songLink)
     soup = BeautifulSoup(r.content, 'html5lib')
@@ -30,10 +49,14 @@ def scrapeSong(title, artist):
     for row in lyricTable.findAll('a'):
         lis = row.find('span').get_text()
         lis = re.sub(r'\[[^]]*\]', '', lis)
-        print(lis)
+        if isEnglish(lis):
+         print(lis)
 
 
-scrapeSong("Without Me", "Eminem")
+scrapeSong("Walk Em Down (Don't Kill Civilians) [with 21 Savage & feat. Mustafa]", "Metro Boomin")
+
+
+
 
 
 def getLyrics():
