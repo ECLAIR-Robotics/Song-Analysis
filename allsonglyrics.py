@@ -4,6 +4,10 @@ import requests
 from bs4 import BeautifulSoup
 import re
 import pickle
+from ratelimit import limits, sleep_and_retry
+
+import requests
+
 
 def isEnglish(s):
     if s is None:
@@ -14,6 +18,14 @@ def isEnglish(s):
         return False
     else:
         return True
+@sleep_and_retry
+@limits(calls=1000, period=300)
+def call_api(url):
+    response = requests.get(url)
+
+    if response.status_code != 200:
+        raise Exception('API response: {}'.format(response.status_code))
+    return response
         
 def scrapeSong(title, artist):
     if title  != "" and artist != "":
@@ -26,7 +38,8 @@ def scrapeSong(title, artist):
         artist = artist.replace(" ", "+")
         baseURL = "https://sing.whatever.social/search?q="
         searchURL = f'{baseURL}{title}+{artist}'
-        
+        #call_api(searchURL)
+
         r = requests.get(searchURL)
         soup = BeautifulSoup(r.content, 'html5lib')
         songLink = soup.find('a', attrs = {'id':"search-item"}, href=True)['href'] if soup.find('a', attrs = {'id':"search-item"}, href=True) is not None else "skip"
@@ -49,7 +62,9 @@ def scrapeSong(title, artist):
             return lyrics
     return ''
 #print(scrapeSong("Someone Like You", "Adele"))
+
 def getLyrics():
+
     rootdir = os.getcwd() + "/Users"
     for subdir, dirs, files in os.walk(rootdir):
         if(subdir != rootdir):
@@ -66,10 +81,10 @@ def getLyrics():
     return 
 
 def main():
-    userFile = open("users.txt",'r')
-    Lines = userFile.readlines()
-    for line in Lines:
-        playlist_info_2.main(line.strip())
+#    userFile = open("users.txt",'r')
+#    Lines = userFile.readlines()
+#    for line in Lines:
+#        playlist_info_2.main(line.strip())
     getLyrics()
 main()
 

@@ -10,4 +10,10 @@ data = pickle.load(file)
 file.close()
 
 print('Showing the pickled data:')
-print(len(data))
+cnt = 0
+for i in range(len(data)):
+ if data[i] != "":
+  cnt +=1
+
+print(cnt)
+#print(data)
