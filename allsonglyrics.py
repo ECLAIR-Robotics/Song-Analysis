@@ -16,36 +16,37 @@ def isEnglish(s):
         return True
         
 def scrapeSong(title, artist):
-    pattern = re.compile('(- [^-]*)$') #gets rid of - Single Version, - 2012 Remaster etc without affecting songs with an actual hyphen
-    title = pattern.sub('', title)
-    title= re.sub(r'\([^]]*\)', '', title)
-    title = re.sub(r'\[[^]]*\]', '', title)
-    title = title.strip()
-    title = title.replace(" ", "+")
-    artist = artist.replace(" ", "+")
-    baseURL = "https://sing.whatever.social/search?q="
-    searchURL = f'{baseURL}{title}+{artist}'
-    
-    r = requests.get(searchURL)
-    soup = BeautifulSoup(r.content, 'html5lib')
-    songLink = soup.find('a', attrs = {'id':"search-item"}, href=True)['href'] if soup.find('a', attrs = {'id':"search-item"}, href=True) is not None else "skip"
-    if songLink != "skip":
-        songLink = baseURL[:28]+songLink
-    
-        r = requests.get(songLink)
+    if title  != "" and artist != "":
+        pattern = re.compile('(- [^-]*)$') #gets rid of - Single Version, - 2012 Remaster etc without affecting songs with an actual hyphen
+        title = pattern.sub('', title)
+        title= re.sub(r'\([^]]*\)', '', title)
+        title = re.sub(r'\[[^]]*\]', '', title)
+        title = title.strip()
+        title = title.replace(" ", "+")
+        artist = artist.replace(" ", "+")
+        baseURL = "https://sing.whatever.social/search?q="
+        searchURL = f'{baseURL}{title}+{artist}'
+        
+        r = requests.get(searchURL)
         soup = BeautifulSoup(r.content, 'html5lib')
-        for br in soup('br'):
-            br.replace_with('\n')
-        lyricTable = soup.find('div', attrs = {'id':"lyrics"})
-        lyrics = ""
-        if lyricTable is not None:
-            for row in lyricTable.findAll('a'):
-                if(row.find('span') is not None):
-                    lis = row.find('span').get_text()
-                    lis = re.sub(r'\[[^]]*\]', '', lis)
-                    if isEnglish(lis):
-                        lyrics += lis +"\n"
-        return lyrics
+        songLink = soup.find('a', attrs = {'id':"search-item"}, href=True)['href'] if soup.find('a', attrs = {'id':"search-item"}, href=True) is not None else "skip"
+        if songLink != "skip":
+            songLink = baseURL[:28]+songLink
+        
+            r = requests.get(songLink)
+            soup = BeautifulSoup(r.content, 'html5lib')
+            for br in soup('br'):
+                br.replace_with('\n')
+            lyricTable = soup.find('div', attrs = {'id':"lyrics"})
+            lyrics = ""
+            if lyricTable is not None:
+                for row in lyricTable.findAll('a'):
+                    if(row.find('span') is not None):
+                        lis = row.find('span').get_text()
+                        lis = re.sub(r'\[[^]]*\]', '', lis)
+                        if isEnglish(lis):
+                            lyrics += lis +"\n"
+            return lyrics
     return ''
 #print(scrapeSong("Someone Like You", "Adele"))
 def getLyrics():
