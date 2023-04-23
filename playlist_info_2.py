@@ -86,9 +86,9 @@ def get_playlist_tracks(username,playlist_info):
   
     # Path
     path = os.path.join(parent_dir, directory)
-    if os.path.exists(f'{username}_playlists') == False :
+    if os.path.exists(f'Users/{username}_playlists') == False :
      os.mkdir(path)
-    shutil.move(play_id+'.txt', f'{username}_playlists/{play_id}.txt')
+    shutil.move(play_id+'.txt', f'Users/{username}_playlists/{play_id}.txt')
 
  
     return 0
