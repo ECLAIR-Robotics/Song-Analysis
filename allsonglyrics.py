@@ -18,8 +18,9 @@ def isEnglish(s):
         return False
     else:
         return True
+    
 @sleep_and_retry
-@limits(calls=1000, period=300)
+@limits(calls=1000, period=120)
 def call_api(url):
     response = requests.get(url)
 
@@ -71,20 +72,23 @@ def getLyrics():
             lyrics = []
             for file in files:
                 with open(os.path.join(subdir, file)) as f:
+                    i = 0
                     for line in f.readlines():
-                        title = line.split(';')[0]
-                        title = re.sub(r'\([^]]*\)', '', title)
-                        artist = line.split(';')[1].lstrip()
-                        lyrics.append(scrapeSong(title, artist))  
+                        if i < 200:
+                            title = line.split(';')[0]
+                            title = re.sub(r'\([^]]*\)', '', title)
+                            artist = line.split(';')[1].lstrip()
+                            lyrics.append(scrapeSong(title, artist))
+                        i+=1  
             with open(os.getcwd() + "/lyricPickles/" + os.path.basename(os.path.normpath(subdir))+ "_lyrics", 'wb') as f:
                 pickle.dump(lyrics, f)                                     
     return 
 
 def main():
-#    userFile = open("users.txt",'r')
-#    Lines = userFile.readlines()
-#    for line in Lines:
-#        playlist_info_2.main(line.strip())
+    userFile = open("users.txt",'r')
+    Lines = userFile.readlines()
+    for line in Lines:
+        playlist_info_2.main(line.strip())
     getLyrics()
 main()
 
