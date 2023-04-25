@@ -39,7 +39,6 @@ def scrapeSong(title, artist):
         artist = artist.replace(" ", "+")
         baseURL = "https://sing.whatever.social/search?q="
         searchURL = f'{baseURL}{title}+{artist}'
-        #call_api(searchURL)
 
         r = requests.get(searchURL)
         soup = BeautifulSoup(r.content, 'html5lib')
@@ -62,7 +61,6 @@ def scrapeSong(title, artist):
                             lyrics += lis +"\n"
             return lyrics
     return ''
-#print(scrapeSong("Someone Like You", "Adele"))
 
 def getLyrics():
 
@@ -90,60 +88,13 @@ def main():
     for line in Lines:
         playlist_info_2.main(line.strip())
     getLyrics()
+<<<<<<< HEAD
 
 if __name__ == '__main__':    
     main()
+=======
+>>>>>>> 718bd0fc66f02b9826248194f87fcc6b3d226e71
 
 
-## TRASH CODE ##
-
-# def getUrls():
-#      rootdir = os.getcwd() + "/Users"
-#      urlmatrix = []
-#      for subdir, dirs, files in os.walk(rootdir):
-#         if(subdir != rootdir):
-#             urls = []
-#             for file in files:
-#                 with open(os.path.join(subdir, file)) as f:
-#                     for line in f.readlines():
-#                         title = line.split(';')[0]
-#                         title = re.sub(r'\([^]]*\)', '', title)
-#                         artist = line.split(';')[1].lstrip()
-#                         pattern = re.compile('(- [^-]*)$') #gets rid of - Single Version, - 2012 Remaster etc without affecting songs with an actual hyphen
-#                         title = pattern.sub('', title)
-#                         title= re.sub(r'\([^]]*\)', '', title)
-#                         title = re.sub(r'\[[^]]*\]', '', title)
-#                         title = title.strip()
-#                         title = title.replace(" ", "+")
-#                         artist = artist.replace(" ", "+")
-#                         baseURL = "https://sing.whatever.social/search?q="
-#                         searchURL = f'{baseURL}{title}+{artist}'
-#                         r = requests.get(searchURL)
-#                         if(r is not None):
-#                             soup = BeautifulSoup(r.content, 'html5lib')
-#                         if(soup is not None):
-#                             songLink = soup.find('a', attrs = {'id':"search-item"}, href=True)['href']
-#                         if(songLink is not None):
-#                             songLink = baseURL[:28]+songLink
-#                             urls.append(songLink)
-#             urlmatrix.append(urls)
-#      return urlmatrix
-
-# if __name__ == '__main__':
-#     # userFile = open("users.txt",'r')
-#     # Lines = userFile.readlines()
-#     # for line in Lines:
-#     #     playlist_info_2.main(line.strip())
-#     #urlmatrix= getUrls()
-#     #print(getUrls())
-#     p = Pool(4)
-#     result = 
-
-# def tester():
-#     lis = "Smooth Criminal - 2012 Remaster"
-#     pattern = re.compile('(- [^-]*)$')
-#     lis = pattern.sub('', lis)
-#     lis= re.sub(r'\([^]]*\)', '', lis)
-#     lis = re.sub(r'\[[^]]*\]', '', lis)
-#     lis = lis.strip()
-#     print(lis)
+if __name__ == '__main__':
+    main()
