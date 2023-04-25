@@ -13,6 +13,16 @@ PAD_TOKEN = tokenizer(tokenizer.pad_token)['input_ids'][0]
 model = AutoModelForCausalLM.from_pretrained(f'./v{ver}_final_model')  # Use this to load our fine tuned model
 
 # Evaluation
+def process_lyrics(lyrics: str) -> list[str]:
+    extra_tokens = len(tokenizer(f'Q: {question}\n\nA: ')['input_ids'])
+    this_chunk_size = chunk_size - extra_tokens
+    all_tokens = tokenizer(lyrics)['input_ids']
+    chunks = [all_tokens[i:i + this_chunk_size] for i in range(0, len(all_tokens), this_chunk_size)]
+    chunks = [f'Q: {question}\n{tokenizer.decode(i)}\nA: ' for i in chunks]
+    chunks = tokenizer(chunks, padding=False, truncation=True, max_length=chunk_size + buffer)['input_ids']
+    return chunks  # Remove last element to avoid misaligned sequences
+
+
 text_generator = pipeline('text-generation', tokenizer=tokenizer, model=model)
 chunk_size = 128
 buffer = 8
