@@ -90,7 +90,9 @@ def main():
     for line in Lines:
         playlist_info_2.main(line.strip())
     getLyrics()
-main()
+
+if __name__ == '__main__':    
+    main()
 
 
 ## TRASH CODE ##
