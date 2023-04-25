@@ -88,12 +88,6 @@ def main():
     for line in Lines:
         playlist_info_2.main(line.strip())
     getLyrics()
-<<<<<<< HEAD
-
-if __name__ == '__main__':    
-    main()
-=======
->>>>>>> 718bd0fc66f02b9826248194f87fcc6b3d226e71
 
 
 if __name__ == '__main__':
