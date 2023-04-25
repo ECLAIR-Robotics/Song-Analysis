@@ -2,9 +2,15 @@ import torch
 from tqdm.notebook import tqdm
 tqdm.pandas()
 import numpy as np
+import pickle
 from transformers import AutoTokenizer, AutoModelForCausalLM, pipeline
 from spellchecker import SpellChecker
 
+UNK_TAG_WEIGHT = -20
+TOKENS_TO_GENERATE = 10
+
+with open('tag_map.data', 'rb') as f:
+    tag_map = pickle.load(f)
 
 # Load Model and Tokenizer
 tokenizer = AutoTokenizer.from_pretrained("distilgpt2")
