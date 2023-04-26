@@ -1,4 +1,4 @@
-import playlist_info_2
+#import playlist_info_2
 import os
 import requests
 from bs4 import BeautifulSoup
@@ -18,7 +18,7 @@ def isEnglish(s):
         return False
     else:
         return True
-    
+
 @sleep_and_retry
 @limits(calls=1000, period=120)
 def call_api(url):
@@ -27,7 +27,7 @@ def call_api(url):
     if response.status_code != 200:
         raise Exception('API response: {}'.format(response.status_code))
     return response
-        
+
 def scrapeSong(title, artist):
     if title  != "" and artist != "":
         pattern = re.compile('(- [^-]*)$') #gets rid of - Single Version, - 2012 Remaster etc without affecting songs with an actual hyphen
@@ -45,7 +45,7 @@ def scrapeSong(title, artist):
         songLink = soup.find('a', attrs = {'id':"search-item"}, href=True)['href'] if soup.find('a', attrs = {'id':"search-item"}, href=True) is not None else "skip"
         if songLink != "skip":
             songLink = baseURL[:28]+songLink
-        
+
             r = requests.get(songLink)
             soup = BeautifulSoup(r.content, 'html5lib')
             for br in soup('br'):
@@ -77,17 +77,17 @@ def getLyrics():
                             title = re.sub(r'\([^]]*\)', '', title)
                             artist = line.split(';')[1].lstrip()
                             lyrics.append(scrapeSong(title, artist))
-                        i+=1  
+                        i+=1
             with open(os.getcwd() + "/lyricPickles/" + os.path.basename(os.path.normpath(subdir))+ "_lyrics", 'wb') as f:
-                pickle.dump(lyrics, f)                                     
-    return 
+                pickle.dump(lyrics, f)
+    return
 
-def main():
-    userFile = open("users.txt",'r')
-    Lines = userFile.readlines()
-    for line in Lines:
-        playlist_info_2.main(line.strip())
-    getLyrics()
+#def main():
+#    userFile = open("users.txt",'r')
+#    Lines = userFile.readlines()
+#    for line in Lines:
+#        playlist_info_2.main(line.strip())
+#    getLyrics()
 
 
 if __name__ == '__main__':

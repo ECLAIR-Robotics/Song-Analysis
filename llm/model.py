@@ -9,14 +9,19 @@ from spellchecker import SpellChecker
 UNK_TAG_WEIGHT = -20
 TOKENS_TO_GENERATE = 10
 
-with open('C:\\Users\\Jason\\Desktop\\ECLAIR\\Song-Analysis\\llm\\tag_map.data', 'rb') as f:
+windows_path_tagmap = 'C:\\Users\\Jason\\Desktop\\ECLAIR\\Song-Analysis\\llm\\tag_map.data'
+unix_path_tagmap = './llm/tag_map.data'
+windows_path_model = 'C:\\Users\\Jason\\Desktop\\ECLAIR\\Song-Analysis\\llm\\v2_final_model'
+unix_path_model = './llm/v2_final_model'
+
+with open(unix_path_tagmap, 'rb') as f:
     tag_map = pickle.load(f)
 
 # Load Model and Tokenizer
 tokenizer = AutoTokenizer.from_pretrained("distilgpt2")
 tokenizer.add_special_tokens({'pad_token': '[PAD]'})
 PAD_TOKEN = tokenizer(tokenizer.pad_token)['input_ids'][0]
-model = AutoModelForCausalLM.from_pretrained(f'C:\\Users\\Jason\\Desktop\\ECLAIR\\Song-Analysis\\llm\\v2_final_model')  # Use this to load our fine tuned model
+model = AutoModelForCausalLM.from_pretrained(unix_path_model)  # Use this to load our fine tuned model
 
 # Evaluation
 def process_lyrics(lyrics: str) -> list[str]:
@@ -63,12 +68,12 @@ def flatten_array(array: list):
     for i in array:
         tags_array += i
     return tags_array
-    
+
 
 def tags_for_excerpt(tokens: list) -> str:
     # tokens = tokenizer(excerpt)['input_ids']
     excerpt = tokenizer.decode(tokens)
-    output = text_generator(excerpt, 
+    output = text_generator(excerpt,
                          max_length=len(tokens) + TOKENS_TO_GENERATE)[0]['generated_text']
     response = output[output.rfind('A: ') + 3:]
     response_tags = response.split(', ')
@@ -79,7 +84,7 @@ def tags_for_excerpt(tokens: list) -> str:
 
 def select_tags(tags: list, num: int):
     unique_tags, counts = np.unique(tags, return_counts=True)
-    
+
     freq_diffs = []
     for i in range(len(unique_tags)):
         if unique_tags[i] in tag_map.keys():
@@ -112,9 +117,9 @@ def gen_tags(lyrics: str, num_tags: int) -> list[list[str]]:
     lyrics = format_lyrics(lyrics)
     chunks = process_lyrics(lyrics)
     result = [tags_for_excerpt(i) for i in chunks]
-    
+
     tags_array = flatten_array(result)
-    
+
     return select_tags(tags_array, num_tags)
 
 
@@ -124,7 +129,7 @@ def process_user(lyrics_arr):
 
 def high_fidelity_gen_tags(lyrics, num_tags):
     all_tags = []
-    for i in range(10):
+    for i in range(30):
         lyrics = format_lyrics(lyrics)
         chunks = process_lyrics(lyrics)
         result = [tags_for_excerpt(i) for i in chunks]
