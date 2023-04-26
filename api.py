@@ -5,7 +5,7 @@ import re
 import config
 import os
 
-genius = Genius(config.api_key)
+genius = Genius(config.key)
 
 
 def getLyricsJSon(id, title, artist):

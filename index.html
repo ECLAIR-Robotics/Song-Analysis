@@ -3,14 +3,36 @@
     <html lang=  "en">
         <head>
             <title>Song Analysis Demo</title>
-        </head>
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	</head>
+	<script>
+	function myFunction() {
+	    var title = $('#title').val();
+	    var artist = $('#artist').val();
+	    $.ajax({
+              url: "/join",
+              type: "POST",
+              data: {title:title,
+              artist:artist}         
+	    }).done(function(response) {            
+		var html= "<br><br><br><p> <b> RESULT : <b><p>";            
+		response =response.result;
+                $.each(response,function(key,val){
+                console.log(val);
+		html+="<p>"+val+"<p>"                
+		});
+	    html +="<br>";
+            $(".show-data").append(html);
+            });
+};  </script>  
 	<body>
 		<h1>Song Analysis Demo</h1>
 		</h3><em>Input your song's title and artist to see what tags our ML model generates!</em></h3>
 		<form name="search" action="/cgi-bin/test.py" method="get">
-			Song title: <input type="text" name="title">
-			Song artist: <input type="text" name="artist">
-			<input type="submit" value="Submit">
+			Song title: <input type="text" id = 'title' name="title">
+			Song artist: <input type="text" id = 'artist' name="artist">
+			<button id="clicked" onclick="myFunction()">Submit</button>
 		</form>
+		<div class="show-data" >    </div>
 	</body>
 </html>
