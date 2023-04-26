@@ -1,11 +1,14 @@
+import llm.model as model
 import cgi
-from api import getLyrics
-from llm/v2_final_model/model.py import processLyrics
+import api 
 
 form = cgi.FieldStorage()
 title =  form.getvalue('title')
 artist = form.getvalue('artist')
-lyrics = getLyrics(title, artist)
+lyrics = api.getLyrics(title, artist)
 
-result = processLyrics(lyrics)
+results= model.gen_tags(lyrics, 8)
 
+htmltext = "Results: %s" % (results)
+htmlfile = open('index.html', 'a')
+file.write(htmltext)
