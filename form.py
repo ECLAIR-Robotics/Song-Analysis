@@ -5,7 +5,7 @@ from flask import Flask, request, render_template,jsonifyapp = Flask(__name__)de
     return results@app.route('/')
 
 def home():
-    return render_template('home.html')@app.route('/join', methods=['GET','POST'])
+    return render_template('index.html')@app.route('/join', methods=['GET','POST'])
 
 def my_form_post():
     title = request.form['title']
