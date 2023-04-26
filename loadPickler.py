@@ -10,7 +10,7 @@ def main(filepath):
   # close the file
   file.close()
 
-  return data
+  return data[6]
   # print('Showing the pickled data:')
   # cnt = 0
   # for i in range(len(data)):
@@ -19,3 +19,5 @@ def main(filepath):
 
   # print(str(cnt) + "/"+ str(len(data)))
   #print(data)
+
+print(main("modelresults"))
