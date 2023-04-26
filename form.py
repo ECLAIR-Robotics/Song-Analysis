@@ -1,7 +1,9 @@
 
-from flask import Flask, request, render_template,jsonifyapp = Flask(__name__)def do_something(text1,text2):
+from flask import Flask, request, render_template,jsonifyapp = Flask(__name__)
+
+def do_something(text1,text2):
     lyrics = api.getLyrics(title, artist)   results = text1 + text2
-    results= model.gen_tags(lyrics, 8) 
+    results= model.gen_tags(lyrics, 8)
     return results@app.route('/')
 
 def home():
