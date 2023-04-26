@@ -2,15 +2,21 @@ import torch
 from tqdm.notebook import tqdm
 tqdm.pandas()
 import numpy as np
+import pickle
 from transformers import AutoTokenizer, AutoModelForCausalLM, pipeline
 from spellchecker import SpellChecker
 
+UNK_TAG_WEIGHT = -20
+TOKENS_TO_GENERATE = 10
+
+with open('C:\\Users\\Jason\\Desktop\\ECLAIR\\Song-Analysis\\llm\\tag_map.data', 'rb') as f:
+    tag_map = pickle.load(f)
 
 # Load Model and Tokenizer
 tokenizer = AutoTokenizer.from_pretrained("distilgpt2")
 tokenizer.add_special_tokens({'pad_token': '[PAD]'})
 PAD_TOKEN = tokenizer(tokenizer.pad_token)['input_ids'][0]
-model = AutoModelForCausalLM.from_pretrained(f'./v{ver}_final_model')  # Use this to load our fine tuned model
+model = AutoModelForCausalLM.from_pretrained(f'C:\\Users\\Jason\\Desktop\\ECLAIR\\Song-Analysis\\llm\\v2_final_model')  # Use this to load our fine tuned model
 
 # Evaluation
 def process_lyrics(lyrics: str) -> list[str]:
